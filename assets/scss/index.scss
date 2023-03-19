@@ -9,10 +9,18 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
+    display: block;
 }
 .img_900 {
     max-width: 100%;
     width: 900px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.img_784 {
+    max-width: 100%;
+    width: 784px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -36,9 +44,10 @@
     text-align: left;
     font-size: 18px;
     position: relative;
-    font-family: "K2D";
+    font-family: "Inter Tight";
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .group_image {
@@ -57,9 +66,19 @@
     }
     margin-bottom: 30px;
 }
-.group_image_933 {
-    width: 933px;
+.group_image_928 {
+    width: 928px;
     margin-bottom: 50px;
+    margin-top: 50px;
+}
+.group_image_963 {
+    width: 960px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.group_image_1135 {
+    width: 1135px;
+    margin-bottom: 30px;
     margin-top: 50px;
 }
 
@@ -74,4 +93,91 @@
     font-weight: normal;
     font-style: normal;
     color: #888888;
+}
+.book_area {
+    background-image: url("../images/bg_1.png");
+    margin-top: -7%;
+    padding-top: 7%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.book {
+    width: 1073px;
+    height: 740px;
+    background-color: #888888;
+    margin: 0 auto;
+    box-shadow: 0px 15px 10px -15px #111;
+    margin-bottom: 25px;
+}
+
+//---------------------img
+.img_1176 {
+    max-width: 100%;
+    width: 1176px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: -22%;
+    margin-bottom: 47px;
+}
+
+.img_185 {
+    width: 185px;
+}
+.img_1275 {
+    width: 1275px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.img_4 {
+    margin-top: -15%;
+}
+.img_3 {
+    margin-top: -13%;
+}
+////--------------------Text
+.control-text {
+    text-align: center;
+    margin-bottom: 0 !important;
+    // padding-bottom: 50px;
+    color: white;
+    font-family: "K2D";
+    font-family: "K2D";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.group_text_3 {
+    padding-top: 50px;
+}
+
+// section 1
+.section_1 {
+    background-color: #fffef2;
+}
+.section_1_1 {
+    background-image: url("../images/bg_2.png");
+}
+.section_1_line {
+    background-color: #c4a548;
+    height: 1px;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+.section_1_author {
+    font-size: 25px;
+    text-align: center;
+}
+
+.section_1_2 {
+    background-image: url("../images/bg_3.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.none {
+    display: none;
 }
