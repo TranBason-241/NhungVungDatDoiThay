@@ -25,7 +25,21 @@
     margin: 0 auto;
     display: block;
 }
-
+.img_1010 {
+    max-width: 100%;
+    width: 1010px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.img_10 {
+    margin-top: -11%;
+    position: relative;
+    z-index: 1;
+}
 .text_title {
     width: 850px;
     max-width: 100%;
@@ -64,7 +78,7 @@
     img:first-child {
         position: initial;
     }
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 .group_image_928 {
     width: 928px;
@@ -80,6 +94,12 @@
     width: 1135px;
     margin-bottom: 30px;
     margin-top: 50px;
+}
+.group_image_1054 {
+    width: 1054px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    z-index: 2;
 }
 
 .img-des {
@@ -129,12 +149,30 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.img_1000 {
+    width: 1000px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
 .img_4 {
     margin-top: -15%;
 }
 .img_3 {
     margin-top: -13%;
 }
+.img_6 {
+    margin-top: -11%;
+    margin-bottom: 0 !important;
+}
+.img_7 {
+    margin-top: -12%;
+}
+.img_8 {
+    margin-top: -12%;
+    position: relative;
+    z-index: 1;
+}
+
 ////--------------------Text
 .control-text {
     text-align: center;
@@ -150,7 +188,16 @@
     padding-bottom: 20px;
 }
 
-.group_text_3 {
+.group_text_3,
+.group_text_5 {
+    padding-top: 50px;
+    position: relative;
+}
+.group_text_6 {
+    padding-top: 22%;
+}
+
+.group_text_7 {
     padding-top: 50px;
 }
 
@@ -180,4 +227,27 @@
 }
 .none {
     display: none;
+}
+
+//section 2
+.section_2_1 {
+    background-color: #f9fbe7;
+    background-image: url("../images/bg_4.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-position: top;
+}
+.section_2_2 {
+    // background-color: #eefffa;
+    // background-image: url("../images/bg_5.png");
+    // background-position: top;
+    background: url("../images/bg_5.png") no-repeat center top;
+    padding-top: 100px;
+    margin-top: -22%;
+    height: 500px;
+    position: relative;
+}
+.section_2_3 {
+    background-color: #eefffa;
+    margin-top: -25%;
 }
