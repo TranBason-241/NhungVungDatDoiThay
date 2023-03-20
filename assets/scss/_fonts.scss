@@ -57,10 +57,10 @@
 
 @font-face {
     font-family: "Inter Tight";
-    src: url("../fontsInterTight-Regular.eot");
-    src: url("../fontsInterTight-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fontsInterTight-Regular.woff2") format("woff2"), url("InterTight-Regular.woff") format("woff"),
-        url("../fontsInterTight-Regular.ttf") format("truetype");
+    src: url("../fonts/InterTight-Regular.eot");
+    src: url("../fonts/InterTight-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/InterTight-Regular.woff2") format("woff2"), url("../fonts/InterTight-Regular.woff") format("woff"),
+        url("../fonts/InterTight-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -68,9 +68,10 @@
 
 @font-face {
     font-family: "Inter";
-    src: url("../fontsInter-Regular.eot");
-    src: url("../fontsInter-Regular.eot?#iefix") format("embedded-opentype"), url("Inter-Regular.woff2") format("woff2"),
-        url("../fontsInter-Regular.woff") format("woff"), url("Inter-Regular.ttf") format("truetype");
+    src: url("../fonts/Inter-Regular.eot");
+    src: url("../fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"),
+        url("../fonts/Inter-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -78,10 +79,10 @@
 
 @font-face {
     font-family: "Inter Tight";
-    src: url("../fontsInterTight-Black.eot");
-    src: url("../fontsInterTight-Black.eot?#iefix") format("embedded-opentype"),
-        url("InterTight-Black.woff2") format("woff2"), url("../fontsInterTight-Black.woff") format("woff"),
-        url("InterTight-Black.ttf") format("truetype");
+    src: url("../fonts/InterTight-Black.eot");
+    src: url("../fonts/InterTight-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/InterTight-Black.woff2") format("woff2"), url("../fonts/InterTight-Black.woff") format("woff"),
+        url("../fonts/InterTight-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
