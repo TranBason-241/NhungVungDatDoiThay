@@ -1,1809 +1,1105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-    <!-- Core stylesheet -->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/css/fontawesome.min.css"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/css/general_v2_min.css"
-    />
-    <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/css/animate-v4.min.css"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/css/swiper-bundle.min.css"
-    />
-    <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
-    <!-- End stylesheet -->
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-    <title>Nhớ sửa title nhé</title>
-  </head>
+  <!-- Core stylesheet -->
+  <link type="text/css" rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/general_v2_min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/global.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/animate-v4.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/aos.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+  <!-- End stylesheet -->
 
-  <body>
-    <!-- Document Warpper -->
-    <div id="warpper" class="clearfix">
-      <!-- Top Nav -->
-      <div id="topbar" class="topbar fixed-top clearfix nav-down">
-        <div class="container">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target=""
-          >
-            <span class="sr-only">Toggle navigation</span
-            ><span class="toggle-icon"></span>
-          </button>
-          <a href="https://vnexpress.net/" class="logo" id="logo"
-            ><img
-              src="assets/images/logo-150x29.png"
-              alt="VnExpress"
-              class="pc-only img-100"
-          /></a>
-          <div class="block-right">
-            <a
-              href="#box_comment"
-              class="button-comments count_comment"
-              data-target=""
-            >
-              <i class="fas fa-comment"></i>
-              <span class="counter">Bình luận</span>
-            </a>
-            <ul class="list-inline social">
-              <li>
-                <a
-                  href="javascript:void(0);"
-                  class="si-facebook shape-circle social-item fb_share"
-                  data-type="fb_share"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="javascript:void(0);"
-                  class="si-twitter shape-circle social-item tw_share"
-                  data-type="tw_share"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-            </ul>
-            <form
-              action="https://timkiem.vnexpress.net/"
-              method="get"
-              class="block-right"
-            >
-              <div class="search">
-                <input
-                  autocomplete="off"
-                  type="text"
-                  class="search-input"
-                  placeholder="Tìm kiếm"
-                  maxlength="80"
-                  name="q"
-                />
-                <span class="search-btn">
-                  <button type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </span>
-              </div>
-            </form>
+  <title>Nhớ sửa title nhé</title>
+</head>
+
+<body>
+  <!-- Document Warpper -->
+  <div id="warpper" class="clearfix">
+    <!-- Top Nav -->
+    <div id="topbar" class="topbar fixed-top clearfix nav-down">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
+          <span class="sr-only">Toggle navigation</span><span class="toggle-icon"></span>
+        </button>
+        <a href="https://vnexpress.net/" class="logo" id="logo"><img src="assets/images/logo-150x29.png" alt="VnExpress"
+            class="pc-only img-100" /></a>
+        <div class="block-right">
+          <a href="#box_comment" class="button-comments count_comment" data-target="">
+            <i class="fas fa-comment"></i>
+            <span class="counter">Bình luận</span>
+          </a>
+          <ul class="list-inline social">
+            <li>
+              <a href="javascript:void(0);" class="si-facebook shape-circle social-item fb_share"
+                data-type="fb_share"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" class="si-twitter shape-circle social-item tw_share" data-type="tw_share"><i
+                  class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+          <form action="https://timkiem.vnexpress.net/" method="get" class="block-right">
+            <div class="search">
+              <input autocomplete="off" type="text" class="search-input" placeholder="Tìm kiếm" maxlength="80"
+                name="q" />
+              <span class="search-btn">
+                <button type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Top Nav -->
+    <!-- Menu -->
+    <div class="mask-content"></div>
+    <div id="menu-box" class="menu-box" tabindex="5000">
+      <div class="box_width_common">
+        <div class="block_scoll_menu">
+          <ul class="list_item_panel">
+            <li>
+              <a href="https://vnexpress.net/"><i class="ic ic-m-home"></i>Trang chủ</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/thoi-su"><i class="ic ic-m-news"></i>Thời sự</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/goc-nhin"><i class="ic ic-m-opinion"></i>Góc nhìn</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/the-gioi"><i class="ic ic-m-world"></i>Thế giới</a>
+            </li>
+            <li class="active">
+              <a href="https://vnexpress.net/kinh-doanh"><i class="ic ic-m-business"></i>Kinh doanh</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/giai-tri"><i class="ic ic-m-entertainment"></i>Giải trí</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/the-thao"><i class="ic ic-m-sport"></i>Thể thao</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/phap-luat"><i class="ic ic-m-law"></i>Pháp luật</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/giao-duc"><i class="ic ic-m-education"></i>Giáo dục</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/suc-khoe"><i class="ic ic-m-health"></i>Sức khỏe</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/doi-song"><i class="ic ic-m-family"></i>Đời sống</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/du-lich"><i class="ic ic-m-travel"></i>Du lịch</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/khoa-hoc"><i class="ic ic-m-science"></i>Khoa học</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/so-hoa"><i class="ic ic-m-technology"></i>Số hóa</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/oto-xe-may"><i class="ic ic-m-car"></i>Xe</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/y-kien"><i class="ic ic-m-social"></i>Ý kiến</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/tam-su"><i class="ic ic-m-talk"></i>Tâm sự</a>
+            </li>
+            <li>
+              <a href="https://video.vnexpress.net"><i class="ic ic-m-video"></i>Video</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/anh"><i class="ic ic-m-photo"></i>Ảnh</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/infographics"><i class="ic ic-m-infographic"></i>Infographics</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/cuoi"><i class="ic ic-m-fun"></i>Cười</a>
+            </li>
+            <li>
+              <a href="https://raovat.vnexpress.net"><i class="ic ic-m-ecom"></i>Fsell</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/24h-qua" class="bg_666"><i class="ic ic-m-24h"></i>24h qua</a>
+            </li>
+            <li>
+              <a href="https://vnexpress.net/lien-he-toa-soan/" class="bg_e8e8"><i class="ic ic-m-contact"></i>Liên hệ
+                Tòa soạn</a>
+            </li>
+            <li class="end">
+              <a href="https://vnexpress.net/contact.htm" class="bg_e8e8"><i class="ic ic-m-mail"></i>Thông tin Tòa
+                soạn</a>
+            </li>
+          </ul>
+          <div class="coppy_right_left width_common">
+            <i class="ic ic-caret-2-down"></i>
+            <div class="txt_coppy_right">
+              <p>
+                &copy; Copyright 1997 - VnExpress.net, All rights reserved
+              </p>
+              <p>&reg; VnExpress giữ bản quyền nội dung trên website này.</p>
+            </div>
+            <div class="txt_lienhe">
+              Hotline: <br />
+              <a href="tel:0838880123">083.888.0123 (Hà Nội)</a> <br />
+              <a href="tel:0822333555">082.233.3555 (TP HCM)</a>
+            </div>
           </div>
         </div>
       </div>
-      <!-- End Top Nav -->
-      <!-- Menu -->
-      <div class="mask-content"></div>
-      <div id="menu-box" class="menu-box" tabindex="5000">
-        <div class="box_width_common">
-          <div class="block_scoll_menu">
-            <ul class="list_item_panel">
-              <li>
-                <a href="https://vnexpress.net/"
-                  ><i class="ic ic-m-home"></i>Trang chủ</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/thoi-su"
-                  ><i class="ic ic-m-news"></i>Thời sự</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/goc-nhin"
-                  ><i class="ic ic-m-opinion"></i>Góc nhìn</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/the-gioi"
-                  ><i class="ic ic-m-world"></i>Thế giới</a
-                >
-              </li>
-              <li class="active">
-                <a href="https://vnexpress.net/kinh-doanh"
-                  ><i class="ic ic-m-business"></i>Kinh doanh</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/giai-tri"
-                  ><i class="ic ic-m-entertainment"></i>Giải trí</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/the-thao"
-                  ><i class="ic ic-m-sport"></i>Thể thao</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/phap-luat"
-                  ><i class="ic ic-m-law"></i>Pháp luật</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/giao-duc"
-                  ><i class="ic ic-m-education"></i>Giáo dục</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/suc-khoe"
-                  ><i class="ic ic-m-health"></i>Sức khỏe</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/doi-song"
-                  ><i class="ic ic-m-family"></i>Đời sống</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/du-lich"
-                  ><i class="ic ic-m-travel"></i>Du lịch</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/khoa-hoc"
-                  ><i class="ic ic-m-science"></i>Khoa học</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/so-hoa"
-                  ><i class="ic ic-m-technology"></i>Số hóa</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/oto-xe-may"
-                  ><i class="ic ic-m-car"></i>Xe</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/y-kien"
-                  ><i class="ic ic-m-social"></i>Ý kiến</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/tam-su"
-                  ><i class="ic ic-m-talk"></i>Tâm sự</a
-                >
-              </li>
-              <li>
-                <a href="https://video.vnexpress.net"
-                  ><i class="ic ic-m-video"></i>Video</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/anh"
-                  ><i class="ic ic-m-photo"></i>Ảnh</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/infographics"
-                  ><i class="ic ic-m-infographic"></i>Infographics</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/cuoi"
-                  ><i class="ic ic-m-fun"></i>Cười</a
-                >
-              </li>
-              <li>
-                <a href="https://raovat.vnexpress.net"
-                  ><i class="ic ic-m-ecom"></i>Fsell</a
-                >
-              </li>
-              <li>
-                <a href="https://vnexpress.net/24h-qua" class="bg_666"
-                  ><i class="ic ic-m-24h"></i>24h qua</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://vnexpress.net/lien-he-toa-soan/"
-                  class="bg_e8e8"
-                  ><i class="ic ic-m-contact"></i>Liên hệ Tòa soạn</a
-                >
-              </li>
-              <li class="end">
-                <a href="https://vnexpress.net/contact.htm" class="bg_e8e8"
-                  ><i class="ic ic-m-mail"></i>Thông tin Tòa soạn</a
-                >
-              </li>
-            </ul>
-            <div class="coppy_right_left width_common">
-              <i class="ic ic-caret-2-down"></i>
-              <div class="txt_coppy_right">
-                <p>
-                  &copy; Copyright 1997 - VnExpress.net, All rights reserved
-                </p>
-                <p>&reg; VnExpress giữ bản quyền nội dung trên website này.</p>
-              </div>
-              <div class="txt_lienhe">
-                Hotline: <br />
-                <a href="tel:0838880123">083.888.0123 (Hà Nội)</a> <br />
-                <a href="tel:0822333555">082.233.3555 (TP HCM)</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="ascrail2000" class="nicescroll-rails">
-          <div class="vne-hr1"></div>
-        </div>
-        <div id="ascrail2000-hr" class="nicescroll-rails">
-          <div class="vne-hr2"></div>
-        </div>
+      <div id="ascrail2000" class="nicescroll-rails">
+        <div class="vne-hr1"></div>
       </div>
-      <!-- End Menu -->
-      <!-- Main Content -->
-      <div class="section-content clearfix">
-        <div class="wrapper-content">
-          <div id="overlay"></div>
-          <div class="menu_container none">
-            <div class="menu">
-              <img src="assets/images/img_icon.png" alt="" class="img_icon" />
-              <ul class="list_menu" id="list_menu">
-                <li value="4" class="menu_item active">Phú Quốc</li>
-                <li value="2" class="menu_item">Quảng Ninh</li>
-                <li value="5" class="menu_item">Tây Ninh</li>
-                <li value="3" class="menu_item">Đà Nẵng</li>
-                <li value="1" class="menu_item">Sapa</li>
-              </ul>
+      <div id="ascrail2000-hr" class="nicescroll-rails">
+        <div class="vne-hr2"></div>
+      </div>
+    </div>
+    <!-- End Menu -->
+    <!-- Main Content -->
+    <div class="section-content clearfix">
+      <div class="wrapper-content">
+        <div id="overlay"></div>
+        <div class="menu_container none">
+          <div class="menu">
+            <img src="assets/images/img_icon.png" alt="" class="img_icon" />
+            <ul class="list_menu" id="list_menu">
+              <li value="4" class="menu_item active">Phú Quốc</li>
+              <li value="2" class="menu_item">Quảng Ninh</li>
+              <li value="5" class="menu_item">Tây Ninh</li>
+              <li value="3" class="menu_item">Đà Nẵng</li>
+              <li value="1" class="menu_item">Sapa</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu_container_mobile none">
+          <div class="menu">
+            <img src="assets/images/img_icon.png" alt="" class="img_icon_mobile" />
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">Phú Quốc</div>
+                <div class="swiper-slide">Quảng Ninh</div>
+                <div class="swiper-slide">Tây Ninh</div>
+                <div class="swiper-slide">Đà Nẵng</div>
+                <div class="swiper-slide">Sapa</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
-          <div class="menu_container_mobile none">
-            <div class="menu">
-              <img
-                src="assets/images/img_icon.png"
-                alt=""
-                class="img_icon_mobile"
-              />
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">Phú Quốc</div>
-                  <div class="swiper-slide">Quảng Ninh</div>
-                  <div class="swiper-slide">Tây Ninh</div>
-                  <div class="swiper-slide">Đà Nẵng</div>
-                  <div class="swiper-slide">Sapa</div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+        </div>
+        <div class="my_container">
+          <div class="section_0 none ss active_ss">
+            <div class="section_0_cover">
+              <div class="group_image group_image_1 pc">
+                <img src="assets/images/group_1_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_1_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_1_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+              </div>
+              <div class="group_image group_image_1 mobile">
+                <img src="assets/images/group_1_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_1_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_1_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
               </div>
             </div>
-          </div>
-          <div class="my_container">
-            <div class="section_0 none ss active_ss">
-              <div class="section_0_cover">
-                <div class="group_image group_image_1 pc">
-                  <img
-                    src="assets/images/group_1_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_1_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_1_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-                <div class="group_image group_image_1 mobile">
-                  <img
-                    src="assets/images/group_1_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_1_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_1_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-              <img
-                src="assets/images/img_1.png"
-                alt=""
-                class="img_1176 img_1 pc"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-offset="250"
-              />
-              <img
-                src="assets/images/img_1_m.png"
-                alt=""
-                class="img_1176 img_1 mobile"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-offset="250"
-              />
-              <div class="book_area">
-                <div
-                  class="group_text group_text_1"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Những vùng đất hoang sơ, chủ yếu làm nông nghiệp hay là nơi
-                    lui tới của dân phượt, đã chuyển mình trở thành các điểm du
-                    lịch, nghỉ dưỡng nhộn nhịp du khách suốt bốn mùa.
-                  </p>
-                </div>
-                <div class="group_image group_image_928">
-                  <img
-                    src="assets/images/group_2_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_2_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                </div>
-                <div class="book"></div>
-                <img
-                  src="assets/images/img_line.png"
-                  alt=""
-                  class="img_185 img"
-                />
-                <p class="control-text">Kéo để lật trang</p>
-              </div>
-            </div>
-
-            <div class="section_1 none ss">
-              <div class="section_1_cover">
-                <div class="group_image group_image_7 pc">
-                  <img
-                    src="assets/images/group_7_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_7_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_7_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="1000"
-                  />
-                </div>
-                <div class="group_image group_image_7 mobile">
-                  <img
-                    src="assets/images/group_7_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_7_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_7_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-              <div class="section_1_1">
-                <div
-                  class="group_text group_text_2"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    nhà văn Nguyễn Thành Long trong truyện ngắn “Lặng lẽ Sa Pa”.
-                    Khách đến đây chủ yếu là người nước ngoài để khám phá bản
-                    làng hoặc tìm về dấu tích khu nghỉ dưỡng của người Pháp hàng
-                    trăm năm trước. Sản phẩm du lịch phổ biến là: Ngủ nhà dân,
-                    ăn gà rừng, hái rau củ. Đỉnh Fansipan vẫn chỉ là nơi lui tới
-                    của dân phượt, những người trẻ sẵn sàng dành 2-3 ngày đêm đi
-                    đường rừng cheo leo để tới “nóc nhà Đông Dương". Năm 2013,
-                    lượng khách du lịch đến Sa Pa mới chỉ đạt 720.000 người.
-                  </p>
-                  <p class="text_content t-content">
-                    Năm 2016, cáp treo Fansipan - hạng mục đầu tiên của khu du
-                    lịch Sun World Fansipan Legend được khánh thành. Đây là
-                    tuyến cáp treo đạt 2 kỷ lục Guinness: cáp treo 3 dây dài
-                    nhất thế giới và cáp treo có độ chênh ga đi, ga đến lớn nhất
-                    thế giới. Cùng với sự kiện thông xe cao tốc Nội Bài - Lào
-                    Cai năm 2014, du khách thay vì đi ôtô 7 tiếng đến Sa Pa, leo
-                    núi hai ngày thì nay chỉ mất ba tiếng đi xe và 15 phút ngồi
-                    cáp treo là có thể chạm tay vào cột mốc 3.143 m. Hai năm kể
-                    từ khi cáp treo đi vào hoạt động, lượng khách du lịch đến Sa
-                    Pa tăng lên 1,56 triệu vào năm 2016; 2,5 triệu năm 2017 và
-                    3,3 triệu năm 2019. Trở lại sau hai năm bị ảnh hưởng bởi
-                    dịch Covid-19, năm 2022, Sa Pa đã đón hơn 2,3 triệu lượt,
-                    tổng doanh thu về dịch vụ du lịch ước đạt hơn 6.780 tỷ đồng.
-                  </p>
-                </div>
-                <img
-                  src="assets/images/img_2.png"
-                  alt=""
-                  class="img_1275 img img_2"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-                <div
-                  class="group_text group_text_2"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Sự xuất hiện của cáp treo Fansipan và tiếp đó là tàu hỏa leo
-                    núi Mường Hoa mở ra cơ hội chinh phục “nóc nhà Đông Dương”
-                    cho người già, trẻ em, người tàn tật hay đơn giản là người
-                    không có đủ thời gian leo núi. Từ trên cáp treo, du khách có
-                    thể ngắm vẻ đẹp kỳ vĩ của rừng Hoàng Liên Sơn, khám phá
-                    thiên nhiên hùng vỹ, các lễ hội quy mô đậm màu sắc bản địa
-                    và chiêm bái quần thể văn hóa kiến trúc tâm linh nằm giữa
-                    muôn trùng mây núi. Trong khi đó, tàu hỏa leo núi Mường Hoa
-                    đưa du khách băng qua thung lũng tới nhà ga đi cáp treo. Đây
-                    cũng là sản phẩm du lịch được du khách tìm đến trải nghiệm
-                    và các hãng thời trang trong nước, quốc tế chọn làm nơi chụp
-                    ảnh bộ sưu tập mới.
-                  </p>
-                </div>
-                <div class="group_image group_image_963 pc">
-                  <img
-                    src="assets/images/group_8_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_8_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_8_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                </div>
-                <div class="group_image group_image_963 mobile">
-                  <img
-                    src="assets/images/group_8_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_8_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_8_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                    data-aos-delay="500"
-                  />
-                </div>
-                <img
-                  src="assets/images/img_3.png"
-                  alt=""
-                  class="img img_3"
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-              </div>
-              <div class="section_1_2">
-                <div
-                  class="group_text group_text_3"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Sự ra đời của Sun World Fansipan Legend còn đánh dấu bước
-                    chuyển mình trong đời sống xã hội nơi đây, tạo nhiều công ăn
-                    việc làm cho người dân địa phương. Anh Hà Văn Thuận, chủ một
-                    cơ sở tắm lá thuốc người Dao cho biết, khi đến Sa Pa lập
-                    nghiệp hồi năm 2006, anh đã định bỏ về vì thấy “nơi này heo
-                    hút quá, khách Tây có thể ở bản cả tháng nên dịch vụ lưu trú
-                    và ăn uống ở thị trấn không phát triển”. Nhưng từ khi cáp
-                    treo Fansipan hình thành, lượng khách gia tăng nhanh chóng,
-                    anh Thuận đầu tư 35 bồn tắm lá thuốc với 12 nhân viên bản
-                    địa. Theo thống kê, nhờ có công ăn việc làm, tỷ lệ hộ nghèo
-                    của Sa Pa giảm đáng kể, từ gần 51% vào năm 2015 xuống 13,5%
-                    năm 2020.
-                  </p>
-                  <p class="text_content t-content">
-                    Những khách sạn, cơ sở lưu trú chất lượng cao cũng dần được
-                    xây dựng và có tỷ lệ lấp đầy phòng cao hơn trước. Trong đó
-                    phải kể đến khách sạn 5 sao Hotel de la Coupole - MGallery,
-                    do Sun Group bắt tay với top 5 kiến trúc sư lừng danh thế
-                    giới Bill Bensley thực hiện. Khách sạn này được đánh giá cao
-                    về sự kết hợp tinh tế giữa màu sắc bản địa và phong cách
-                    Pháp.
-                  </p>
-                </div>
-                <div class="group_image group_image_1135 pc">
-                  <img
-                    src="assets/images/group_9_1.png"
-                    data-aos="fade-down-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_2.png"
-                    data-aos="fade-down-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_3.png"
-                    data-aos="fade-up-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_4.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_5.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                </div>
-                <div class="group_image group_image_1135 mobile">
-                  <img
-                    src="assets/images/group_9_1_m.png"
-                    data-aos="fade-down-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_2_m.png"
-                    data-aos="fade-down-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_3_m.png"
-                    data-aos="fade-up-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_4_m.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_9_5_m.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                    data-aos-offset="300"
-                  />
-                </div>
-                <img
-                  src="assets/images/img_20.png"
-                  alt=""
-                  class="img img_784 pc"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                />
-                <img
-                  src="assets/images/img_20_m.png"
-                  alt=""
-                  class="img img_784 mobile"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                />
-                <hr class="section_1_line" />
-                <p
-                  class="section_1_author"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="200"
-                >
-                  Ông Phạm Cao Vỹ <br />
-                  Chủ tịch Hiệp hội Du lịch tỉnh Lào Cai
-                </p>
-                <img src="assets/images/img_4.png" alt="" class="img img_4" />
-              </div>
-              <div class="author pc">
+            <img src="assets/images/img_1.png" alt="" class="img_1176 img_1 pc" data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-offset="250" />
+            <img src="assets/images/img_1_m.png" alt="" class="img_1176 img_1 mobile" data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-offset="250" />
+            <div class="book_area">
+              <div class="group_text group_text_1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
                 <p class="text_content t-content">
-                  Nội dung: <span>Thu hương</span> - Thiết kế:
-                  <span>DucTran</span> - Kỹ thuật: <span>Bá Sơn</span>
+                  Những vùng đất hoang sơ, chủ yếu làm nông nghiệp hay là nơi
+                  lui tới của dân phượt, đã chuyển mình trở thành các điểm du
+                  lịch, nghỉ dưỡng nhộn nhịp du khách suốt bốn mùa.
                 </p>
               </div>
-              <!-- <div class="author mobile">
+
+
+              <div class="group_image group_image_928 title_1 book_title book_active">
+                <img src="assets/images/group_6_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_6_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+              </div>
+
+              <div class="group_image group_image_928 title_2 book_title">
+                <img src="assets/images/group_4_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_4_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+              </div>
+
+
+
+              <div class="group_image group_image_928 title_3 book_title">
+                <img src="assets/images/group_5_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_5_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+              </div>
+
+
+              <div class="group_image group_image_928 title_4 book_title">
+                <img src="assets/images/group_3_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_3_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+              </div>
+
+
+
+              <div class="group_image group_image_928 title_5 book_title ">
+                <img src="assets/images/group_2_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_2_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+              </div>
+
+
+
+
+
+
+              <div class="book">
+                <div class="book_wrapper">
+                  <a id="next_page_button"></a>
+                  <a id="prev_page_button"></a>
+                  <div id="mybook" style="display: none">
+                    <div class="brightness"></div>
+                    <div class="b-load">
+                      <div class="empty-div">
+                        <img src="assets/images/sach_5_1.png" alt="" />
+                      </div>
+                      <div class="empty-div">
+                        <img src="assets/images/sach_5_2.png" alt="" />
+                      </div>
+
+                      <div class="empty-div">
+                        <img src="assets/images/sach_3_1.png" alt="" />
+                      </div>
+                      <div class="empty-div">
+                        <img src="assets/images/sach_3_2.png" alt="" />
+                      </div>
+
+
+                      <div class="empty-div">
+                        <img src="assets/images/sach_4_1.png" alt="" />
+                      </div>
+                      <div class="empty-div">
+                        <img src="assets/images/sach_4_2.png" alt="" />
+                      </div>
+
+
+                      <div class="empty-div">
+                        <img src="assets/images/sach_2_1.png" alt="" />
+                      </div>
+                      <div class="empty-div">
+                        <img src="assets/images/sach_2_2.png" alt="" />
+                      </div>
+
+                      <div class="empty-div">
+                        <img src="assets/images/sach_1_1.png" alt="" />
+                      </div>
+                      <div class="empty-div">
+                        <img src="assets/images/sach_1_2.png" alt="" />
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img src="assets/images/img_line.png" alt="" class="img_185 img" />
+              <p class="control-text">Kéo để lật trang</p>
+            </div>
+
+          </div>
+
+          <div class="section_1 none ss">
+            <div class="section_1_cover">
+              <div class="group_image group_image_7 pc">
+                <img src="assets/images/group_7_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_7_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="500" />
+                <img src="assets/images/group_7_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              </div>
+              <div class="group_image group_image_7 mobile">
+                <img src="assets/images/group_7_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_7_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="500" />
+                <img src="assets/images/group_7_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              </div>
+            </div>
+            <div class="section_1_1">
+              <div class="group_text group_text_2" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  nhà văn Nguyễn Thành Long trong truyện ngắn “Lặng lẽ Sa Pa”.
+                  Khách đến đây chủ yếu là người nước ngoài để khám phá bản
+                  làng hoặc tìm về dấu tích khu nghỉ dưỡng của người Pháp hàng
+                  trăm năm trước. Sản phẩm du lịch phổ biến là: Ngủ nhà dân,
+                  ăn gà rừng, hái rau củ. Đỉnh Fansipan vẫn chỉ là nơi lui tới
+                  của dân phượt, những người trẻ sẵn sàng dành 2-3 ngày đêm đi
+                  đường rừng cheo leo để tới “nóc nhà Đông Dương". Năm 2013,
+                  lượng khách du lịch đến Sa Pa mới chỉ đạt 720.000 người.
+                </p>
+                <p class="text_content t-content">
+                  Năm 2016, cáp treo Fansipan - hạng mục đầu tiên của khu du
+                  lịch Sun World Fansipan Legend được khánh thành. Đây là
+                  tuyến cáp treo đạt 2 kỷ lục Guinness: cáp treo 3 dây dài
+                  nhất thế giới và cáp treo có độ chênh ga đi, ga đến lớn nhất
+                  thế giới. Cùng với sự kiện thông xe cao tốc Nội Bài - Lào
+                  Cai năm 2014, du khách thay vì đi ôtô 7 tiếng đến Sa Pa, leo
+                  núi hai ngày thì nay chỉ mất ba tiếng đi xe và 15 phút ngồi
+                  cáp treo là có thể chạm tay vào cột mốc 3.143 m. Hai năm kể
+                  từ khi cáp treo đi vào hoạt động, lượng khách du lịch đến Sa
+                  Pa tăng lên 1,56 triệu vào năm 2016; 2,5 triệu năm 2017 và
+                  3,3 triệu năm 2019. Trở lại sau hai năm bị ảnh hưởng bởi
+                  dịch Covid-19, năm 2022, Sa Pa đã đón hơn 2,3 triệu lượt,
+                  tổng doanh thu về dịch vụ du lịch ước đạt hơn 6.780 tỷ đồng.
+                </p>
+              </div>
+              <img src="assets/images/img_2.png" alt="" class="img_1275 img img_2" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-offset="250" />
+              <div class="group_text group_text_2" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Sự xuất hiện của cáp treo Fansipan và tiếp đó là tàu hỏa leo
+                  núi Mường Hoa mở ra cơ hội chinh phục “nóc nhà Đông Dương”
+                  cho người già, trẻ em, người tàn tật hay đơn giản là người
+                  không có đủ thời gian leo núi. Từ trên cáp treo, du khách có
+                  thể ngắm vẻ đẹp kỳ vĩ của rừng Hoàng Liên Sơn, khám phá
+                  thiên nhiên hùng vỹ, các lễ hội quy mô đậm màu sắc bản địa
+                  và chiêm bái quần thể văn hóa kiến trúc tâm linh nằm giữa
+                  muôn trùng mây núi. Trong khi đó, tàu hỏa leo núi Mường Hoa
+                  đưa du khách băng qua thung lũng tới nhà ga đi cáp treo. Đây
+                  cũng là sản phẩm du lịch được du khách tìm đến trải nghiệm
+                  và các hãng thời trang trong nước, quốc tế chọn làm nơi chụp
+                  ảnh bộ sưu tập mới.
+                </p>
+              </div>
+              <div class="group_image group_image_963 pc">
+                <img src="assets/images/group_8_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_8_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" data-aos-delay="500" />
+                <img src="assets/images/group_8_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" data-aos-delay="500" />
+              </div>
+              <div class="group_image group_image_963 mobile">
+                <img src="assets/images/group_8_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_8_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" data-aos-delay="500" />
+                <img src="assets/images/group_8_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" data-aos-delay="500" />
+              </div>
+              <img src="assets/images/img_3.png" alt="" class="img img_3" data-aos="zoom-out" data-aos-duration="1000"
+                data-aos-offset="250" />
+            </div>
+            <div class="section_1_2">
+              <div class="group_text group_text_3" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Sự ra đời của Sun World Fansipan Legend còn đánh dấu bước
+                  chuyển mình trong đời sống xã hội nơi đây, tạo nhiều công ăn
+                  việc làm cho người dân địa phương. Anh Hà Văn Thuận, chủ một
+                  cơ sở tắm lá thuốc người Dao cho biết, khi đến Sa Pa lập
+                  nghiệp hồi năm 2006, anh đã định bỏ về vì thấy “nơi này heo
+                  hút quá, khách Tây có thể ở bản cả tháng nên dịch vụ lưu trú
+                  và ăn uống ở thị trấn không phát triển”. Nhưng từ khi cáp
+                  treo Fansipan hình thành, lượng khách gia tăng nhanh chóng,
+                  anh Thuận đầu tư 35 bồn tắm lá thuốc với 12 nhân viên bản
+                  địa. Theo thống kê, nhờ có công ăn việc làm, tỷ lệ hộ nghèo
+                  của Sa Pa giảm đáng kể, từ gần 51% vào năm 2015 xuống 13,5%
+                  năm 2020.
+                </p>
+                <p class="text_content t-content">
+                  Những khách sạn, cơ sở lưu trú chất lượng cao cũng dần được
+                  xây dựng và có tỷ lệ lấp đầy phòng cao hơn trước. Trong đó
+                  phải kể đến khách sạn 5 sao Hotel de la Coupole - MGallery,
+                  do Sun Group bắt tay với top 5 kiến trúc sư lừng danh thế
+                  giới Bill Bensley thực hiện. Khách sạn này được đánh giá cao
+                  về sự kết hợp tinh tế giữa màu sắc bản địa và phong cách
+                  Pháp.
+                </p>
+              </div>
+              <div class="group_image group_image_1135 pc">
+                <img src="assets/images/group_9_1.png" data-aos="fade-down-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_2.png" data-aos="fade-down-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_3.png" data-aos="fade-up-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_4.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_5.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+              </div>
+              <div class="group_image group_image_1135 mobile">
+                <img src="assets/images/group_9_1_m.png" data-aos="fade-down-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_2_m.png" data-aos="fade-down-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_3_m.png" data-aos="fade-up-right" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_4_m.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+                <img src="assets/images/group_9_5_m.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="800" data-aos-offset="300" />
+              </div>
+              <img src="assets/images/img_20.png" alt="" class="img img_784 pc" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-offset="300" />
+              <img src="assets/images/img_20_m.png" alt="" class="img img_784 mobile" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-offset="300" />
+              <hr class="section_1_line" />
+              <p class="section_1_author" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                Ông Phạm Cao Vỹ <br />
+                Chủ tịch Hiệp hội Du lịch tỉnh Lào Cai
+              </p>
+              <img src="assets/images/img_4.png" alt="" class="img img_4" />
+            </div>
+            <div class="author pc">
+              <p class="text_content t-content">
+                Nội dung: <span>Thu hương</span> - Thiết kế:
+                <span>DucTran</span> - Kỹ thuật: <span>Bá Sơn</span>
+              </p>
+            </div>
+            <!-- <div class="author mobile">
                 <p class="text_content t-content">
                   Nội dung: <span>Thu hương</span> - Thiết kế:
                   <span>Thái Hưng</span> <br />
                   Kỹ thuật: <span>Bá Sơn</span>
                 </p>
               </div> -->
-            </div>
-            <div class="section_2 none ss">
-              <div class="section_2_cover pc">
-                <div class="group_image group_image_10">
-                  <img
-                    src="assets/images/group_10_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_10_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_10_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_10_4.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-
-              <div class="section_2_cover mobile">
-                <div class="group_image group_image_10">
-                  <img
-                    src="assets/images/group_10_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_10_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_10_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_10_4_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-
-              <div class="section_2_1">
-                <div
-                  class="group_text group_text_4"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Năm 2010, Quảng Ninh thu ngân sách đạt 22.589 tỷ đồng, đứng
-                    thứ 5 cả nước. GDP bình quân đầu người đạt gần 1.600 USD,
-                    cao hơn mức 1.200 USD trung bình cả nước. Nơi đây có nhiều
-                    tài nguyên phong phú như than, đá vôi… cùng vịnh Hạ Long -
-                    di sản thiên nhiên thế giới. Tuy nhiên, thời điểm đó, hệ
-                    thống cơ sở hạ tầng, đường sá, cầu, sân bay, cảng biển vẫn
-                    chưa hoàn thiện.
-                  </p>
-                  <p class="text_content t-content">
-                    Năm 2011, Quảng Ninh chủ trương chuyển từ “nâu sang xanh",
-                    giảm dần khai khoáng, hướng phát triển sang lĩnh vực du
-                    lịch, dịch vụ; đẩy mạnh thu hút đầu tư công nghiệp xanh -
-                    sạch - chế biến, chế tạo. Để hiện thực hóa chiến lược này,
-                    Quảng Ninh đã đi trước đón đầu, kêu gọi đầu tư phát triển hạ
-                    tầng. Trong đó, phải kể đến sự tham gia của Tập đoàn Sun
-                    Group với hệ thống Cảng hàng không quốc tế Vân Đồn, Cảng tàu
-                    khách Quốc tế Hạ Long, cao tốc Vân Đồn - Móng Cái...
-                  </p>
-                </div>
-                <img
-                  src="assets/images/img_5.png"
-                  alt=""
-                  class="img img_1000"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-                <img
-                  src="assets/images/img_6.png"
-                  alt=""
-                  class="img img_6"
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-                <div
-                  class="group_text group_text_5"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Từ một khu vực đầm lầy, cảng hàng không tư nhân đầu tiên của
-                    Việt Nam đã thành hình với đường băng dài 3,6km, rộng 45m và
-                    hoạt động công suất phục vụ 2,5 triệu khách, 10.000 tấn hàng
-                    hóa mỗi năm. Cảng tàu khách quốc tế Hạ Long với bến cảng dài
-                    130 m, rộng 31 m, có khả năng tiếp nhận đồng thời 2 tàu cỡ
-                    lớn, sức chở lên đến 8.400 khách và thuỷ thủ đoàn. Nhà ga
-                    cảng hành khách rộng đến 13.500m2 do kiến trúc sư Bill
-                    Bensley thiết kế, với sự pha trộn tinh tế giữa nét văn hoá,
-                    kiến trúc Việt Nam và châu Âu.
-                  </p>
-                  <p class="text_content t-content">
-                    Đến nay, Quảng Ninh đã có tuyến cao tốc xuyên tỉnh dài 176
-                    km, tổng vốn đầu tư gần 37.000 tỷ đồng. Trong đó hai đoạn Hạ
-                    Long - Vân Đồn và Vân Đồn - Móng Cái do Sun Group triển
-                    khai. Nhờ tuyến cao tốc này, thời gian đi từ Hà Nội đến Hạ
-                    Long chỉ còn 1,5 giờ và Móng Cái chỉ còn 3 giờ, thu hút du
-                    khách ghé Quảng Ninh tham quan, vui chơi và mở ra cơ hội
-                    thông thương, kết nối giữa các vùng đất.
-                  </p>
-                </div>
-                <img
-                  src="assets/images/img_7.png"
-                  alt=""
-                  class="img img_7"
-                  data-aos="zoom-out"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-              </div>
-              <div class="section_2_2"></div>
-              <div class="section_2_3">
-                <div
-                  class="group_text group_text_6"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Trong lĩnh vực du lịch, nghỉ dưỡng, hàng loạt dự án vui
-                    chơi, giải trí lớn được Sun Group đầu tư xây dựng đã đưa
-                    Quảng Ninh trở thành điểm đến sôi động. Tiêu biểu là Sun
-                    World Ha Long với các trò chơi đa dạng tại công viên chủ đề
-                    Dragon Park hay công viên nước Typhoon Water. Cũng tại đây,
-                    cáp treo Nữ hoàng đạt hai kỷ lục Guinness thế giới giúp du
-                    khách ngắm nhìn toàn cảnh Vịnh Hạ Long và thành phố từ trên
-                    cao, trải nghiệm đỉnh Ba Đèo với không gian đậm chất Nhật
-                    Bản cùng nhiều trò chơi hấp dẫn như trải nghiệm vòng xoay
-                    mặt trời khổng lồ, thăm bảo tàng tượng sáp, cầu Koi, hay
-                    không gian thiền định linh thiêng của Bảo Hải Linh Thông Tự…
-                  </p>
-                  <p class="text_content t-content">
-                    Trong khi đó, khu nghỉ dưỡng Premier Village Ha Long Bay
-                    mang đến cho du khách những giờ phút nghỉ ngơi thư thái ngay
-                    bên bờ vịnh di sản. Còn Yoko Onsen Quang Hanh resort tại
-                    Quang Hanh (Cẩm Phả) lại là không gian trải nghiệm văn hóa
-                    onsen chuẩn Nhật, với những loại hình dịch vụ tắm khoáng
-                    tinh tế từ xứ sở Phù Tang.
-                  </p>
-                </div>
-                <div class="group_image group_image_1054 pc">
-                  <img
-                    src="assets/images/group_11_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_11_2.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_11_3.png"
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="200"
-                  />
-                </div>
-
-                <div class="group_image group_image_1054 mobile">
-                  <img
-                    src="assets/images/group_11_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_11_2_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_11_3_m.png"
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                    data-aos-delay="200"
-                  />
-                </div>
-
-                <img
-                  src="assets/images/img_8.png"
-                  alt=""
-                  class="img img_8"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-                <div
-                  class="group_text group_text_7"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Bên cạnh đó, hàng loạt dự án nghỉ dưỡng và bất động sản như
-                    Sun Grand City Feria, Sun Plaza Grand World Hạ Long, quảng
-                    trường Sun Carnival Plaza… cũng góp phần mang đến màu sắc
-                    mới cho diện mạo đô thị, hứa hẹn đưa Quảng Ninh trở thành
-                    điểm đến đầu tư, “ngôi nhà thứ hai” của nhiều người Việt.
-                    Sau hơn 10 năm, Sun Group đã triển khai tại tỉnh này hàng
-                    chục dự án quy mô, góp phần vào sự tăng trưởng của tỉnh. Năm
-                    2021, địa phương thu ngân sách 51.000 tỷ, gấp gần 2,3 lần so
-                    với năm 2010.
-                  </p>
-                </div>
-                <img
-                  src="assets/images/img_9.png"
-                  alt=""
-                  class="img img_1010"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
-                <img
-                  src="assets/images/img_10.png"
-                  alt=""
-                  class="img img_10"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-offset="250"
-                />
+          </div>
+          <div class="section_2 none ss">
+            <div class="section_2_cover pc">
+              <div class="group_image group_image_10">
+                <img src="assets/images/group_10_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_10_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_10_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_10_4.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
               </div>
             </div>
-            <div class="section_3 none ss">
-              <div class="section_3_cover">
-                <div class="group_image group_image_12 pc">
-                  <img
-                    src="assets/images/group_12_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_12_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_12_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_12_4.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_12_5.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-                <div class="group_image group_image_12 mobile">
-                  <img
-                    src="assets/images/group_12_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_12_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_12_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_12_4_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                  <img
-                    src="assets/images/group_12_5_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-                <div class="section_3_1">
-                  <div
-                    class="group_text group_text_8"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  >
-                    <p class="text_content t-content">
-                      Năm 2007, lượng khách đến Đà Nẵng chỉ đạt một triệu người,
-                      doanh thu du lịch khoảng 700 tỷ đồng. Theo thống kê, mỗi
-                      khách chỉ chi tiêu khoảng 700.000 đồng và lưu trú tại đây
-                      hơn một ngày. Trong mắt nhiều du khách, thành phố biển
-                      ngày đó chỉ như một “trạm trung chuyển” trên hành trình
-                      đến cố đô Huế, Hội An, Cù Lao Chàm hay thánh địa Mỹ Sơn.
-                      Cho đến tận bây giờ, nhiều người Đà Nẵng vẫn không thể
-                      quên hình ảnh những dãy nhà tạm bợ, với những chiếc cọc
-                      lấn ra lòng sông tại khu vực ven sông Hàn, giữa trung tâm
-                      thành phố. Còn cách cầu Sông Hàn vài km khi đó vẫn là khu
-                      vực ngoại ô vắng vẻ, chỉ có cát, hàng cây phi lao và rau
-                      muống biển.
-                    </p>
-                    <p class="text_content t-content">
-                      Với định hướng mới, thành phố đã đẩy mạnh phát triển hạ
-                      tầng, đồng bộ với các sản phẩm du lịch. Hàng loạt dự án
-                      resort, khách sạn, khu vui chơi, biệt thự biển liên tục
-                      được triển khai, mang đến những sản phẩm lưu trú, giải trí
-                      cao cấp, góp phần tăng doanh thu cho ngành công nghiệp
-                      không khói.
-                    </p>
-                    <p class="text_content t-content">
-                      Đà Nẵng cũng là điểm đặt chân đầu tiên trong hành trình
-                      “làm đẹp những vùng đất” của Tập đoàn Sun Group. Một trong
-                      những dự án đầu tiên là tuyến cáp treo Bà Nà, thuộc khu du
-                      lịch Sun World Ba Na Hills. Kỹ sư trắc địa Trịnh Văn Hà
-                      nhớ lại thời điểm năm 2007, anh không hiểu trước mặt mình
-                      là gì, cũng không hiểu cáp treo làm như thế nào, chỉ biết
-                      qua những bản vẽ, vậy nên cứ vừa làm vừa tìm tòi.
-                    </p>
-                  </div>
-                  <img
-                    src="assets/images/img_11.png"
-                    alt=""
-                    class="img img_1092"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                  <img
-                    src="assets/images/img_12.png"
-                    alt=""
-                    class="img img_12"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                </div>
-                <div class="section_3_2">
-                  <div
-                    class="group_text group_text_9"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  >
-                    <p class="text_content t-content">
-                      “Các bạn nước ngoài bảo mình chỉ biết chiến tranh thôi chứ
-                      không có kỹ thuật; làm cáp treo khó lắm, sang chảnh lắm,
-                      không có nền tảng kỹ thuật, không có nhân lực thì không
-                      được”, anh Hà chia sẻ.
-                    </p>
-                    <p class="text_content t-content">
-                      Anh kể, khi không được mở đường để tránh ảnh hưởng đến
-                      rừng, đội ngũ kỹ sư đã nghĩ ra cách vận chuyển vật liệu
-                      bằng cáp công vụ và mang vác thủ công. Sau hơn một năm,
-                      tuyến cáp treo một dây dài nhất thế giới (5.042,62m) ra
-                      đời.
-                    </p>
-                    <p class="text_content t-content">
-                      Đến Đà Nẵng ngày nay, nhiều du khách cũng ấn tượng với
-                      InterContinental Danang Sun Peninsula Resort - nơi 4 lần
-                      liên tiếp giành giải thưởng “Khu nghỉ dưỡng sang trọng
-                      hàng đầu thế giới”, là địa điểm diễn ra hội nghị APEC
-                      2017. Để triển khai xây dựng InterContinental Danang Sun
-                      Peninsula Resort, lãnh đạo Sun Group đã phải 3 lần bay
-                      sang Thái Lan để mời “ông hoàng resort" Bill Bensley thiết
-                      kế. Mất một năm để sắp xếp đi khảo sát, vị kiến trúc sư
-                      này đã tiết lộ lý do khiến ông nhận lời là vì ấn tượng
-                      trước vẻ đẹp của bán đảo Sơn Trà, đồng thời đích thân đi
-                      khắp Việt Nam tìm kiếm chất liệu dân gian để thổi hồn nét
-                      văn hóa Việt vào thiết kế. Ngay khi hoàn thành vào năm
-                      2012, InterContinental Danang đã trở thành điểm đến của
-                      các tỷ phú, các ngôi sao giải trí và được vinh danh tại
-                      nhiều giải thưởng danh giá.
-                    </p>
-                  </div>
-                  <img
-                    src="assets/images/img_13.png"
-                    alt=""
-                    class="img img_13"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                  <img
-                    src="assets/images/img_14.png"
-                    alt=""
-                    class="img img_1036"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                  <img
-                    src="assets/images/img_15.png"
-                    alt=""
-                    class="img img_15"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                </div>
-                <div class="section_3_3">
-                  <div
-                    class="group_text group_text_10"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  >
-                    <p class="text_content t-content">
-                      Ngoài ra, các công trình nổi bật của Sun Group tại Đà Nẵng
-                      còn phải kể đến khách sạn Novotel Danang Premier Han River
-                      cao 37 tầng với tầm nhìn chiêm ngưỡng toàn cảnh thành phố
-                      về đêm. Hay khu nghỉ dưỡng Premier Village Danang Resort
-                      bên bãi biển Mỹ An, với hơn 100 căn biệt thự cùng những
-                      nhà hàng, quán bar, spa… mang phong cách thiết kế phóng
-                      khoáng, gần gũi thiên nhiên. Hàng loạt công trình khác như
-                      Công viên Châu Á, sân golf Bà Nà, khu đô thị Nam Hoà Xuân…
-                      được xây dựng sau đó đã góp phần thay đổi diện mạo đô thị
-                      TP Đà Nẵng. Năm 2019, Đà Nẵng đã đón 8,6 triệu lượt khách
-                      du lịch và đạt doanh thu gần 31.000 tỷ đồng, gấp hơn 8 lần
-                      về số khách và hơn 44 lần doanh thu so với năm 2007. Sau 2
-                      năm bị ảnh hưởng bởi dịch Covid-19, năm 2022, ngành du
-                      lịch Đà Nẵng đã đón 3,69 triệu lượt khách, cả trong nước
-                      và quốc tế.
-                    </p>
-                  </div>
-                  <div class="group_image group_image_1024 pc">
-                    <img
-                      src="assets/images/group_13_1.png"
-                      data-aos="zoom-out"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                    />
-                    <img
-                      src="assets/images/group_13_2.png"
-                      data-aos="fade-right"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                      data-aos-delay="500"
-                    />
-                    <img
-                      src="assets/images/group_13_3.png"
-                      data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                      data-aos-delay="1000"
-                    />
-                  </div>
-                  <div class="group_image group_image_1024 mobile">
-                    <img
-                      src="assets/images/group_13_1_m.png"
-                      data-aos="zoom-out"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                    />
-                    <img
-                      src="assets/images/group_13_2_m.png"
-                      data-aos="fade-right"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                      data-aos-delay="500"
-                    />
-                    <img
-                      src="assets/images/group_13_3_m.png"
-                      data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="200"
-                      data-aos-delay="1000"
-                    />
-                  </div>
-                  <img
-                    src="assets/images/img_16.png"
-                    alt=""
-                    class="img img_16"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                    data-aos-offset="250"
-                  />
-                </div>
+
+            <div class="section_2_cover mobile">
+              <div class="group_image group_image_10">
+                <img src="assets/images/group_10_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_10_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_10_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_10_4_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
               </div>
             </div>
-            <div class="section_4 none ss">
-              <div class="section_4_cover pc">
-                <div class="group_image group_image_14">
-                  <img
-                    src="assets/images/group_14_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_14_2.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_14_3.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-              <div class="section_4_cover mobile">
-                <div class="group_image group_image_14">
-                  <img
-                    src="assets/images/group_14_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_14_2_m.png"
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="500"
-                  />
-                  <img
-                    src="assets/images/group_14_3_m.png"
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                    data-aos-delay="1000"
-                  />
-                </div>
-              </div>
-              <div
-                class="group_text group_text_11"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                <p class="text_content t-content">
-                  Trước năm 2000, lượng khách đến với Phú Quốc chỉ khoảng vài
-                  chục nghìn người, chủ yếu đến thăm di tích lịch sử nhà tù Phú
-                  Quốc. Trong cảm nhận của nhiều du khách thời điểm này, các bãi
-                  tắm còn rất hoang sơ và chủ yếu phục vụ người dân địa phương,
-                  nguồn thu ngân sách một năm chỉ khoảng vài chục tỷ đồng. Cùng
-                  với sự xuất hiện của tàu cao tốc, cảng Bãi Vòng, sân bay quốc
-                  tế, Phú Quốc bắt đầu có sự đầu tư mạnh mẽ vào hạ tầng, giao
-                  thông. Đường cáp điện ngầm vượt biển, hồ chứa nước hàng nghìn
-                  m3 được triển khai, hệ thống giao thông dần hoàn thiện. Tập
-                  đoàn Sun Group cũng chọn nơi đây là điểm đến, xây dựng hệ sinh
-                  thái với 3 mảng chính là: Du lịch nghỉ dưỡng, vui chơi - giải
-                  trí và bất động sản cao cấp.
-                </p>
-                <p class="text_content t-content">
-                  Tại Nam đảo ngọc, Sun Group khởi công dự án JW Marriott Phu
-                  Quoc Emerald Bay Resort. Hàng trăm công nhân đã dọn rác, đãi
-                  cát tại Bãi Kem (An Thới). Nhiều người vẫn nhớ, trong điều
-                  kiện khó khăn khi ấy, họ phải dùng máy phát điện thay cho điện
-                  lưới, dùng xe bồn chở nước thay cho giếng khoan và vận chuyển
-                  nguyên vật liệu bằng tàu biển. Kiến trúc sư Bill Bensley đã
-                  tạo nên một không gian sang trọng, độc đáo, lấy cảm hứng từ
-                  câu chuyện giả tưởng về trường đại học Lamarck, mỗi khu nhà
-                  tương ứng với một khoa. Bên cạnh nghỉ dưỡng, du khách còn được
-                  biết thêm những điều thú vị về nơi mình đang ở, thông qua
-                  những tranh ảnh, câu trích dẫn được bố trí khắp mọi nơi: trên
-                  tường, trong thang máy, trên bàn ăn, cánh cửa, trần nhà…
-                </p>
-              </div>
-              <div class="group_image group_image_1366 pc">
-                <img
-                  src="assets/images/group_15_1.png"
-                  data-aos="zoom-out"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                />
-                <img
-                  src="assets/images/group_15_2.png"
-                  data-aos="fade-right"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-                <img
-                  src="assets/images/group_15_3.png"
-                  data-aos="fade-left"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-                <img
-                  src="assets/images/group_15_4.png"
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-              </div>
-              <div class="group_image group_image_1366 molbile">
-                <img
-                  src="assets/images/group_15_1_m.png"
-                  data-aos="zoom-out"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                />
-                <img
-                  src="assets/images/group_15_2_m.png"
-                  data-aos="fade-right"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-                <img
-                  src="assets/images/group_15_3_m.png"
-                  data-aos="fade-left"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-                <img
-                  src="assets/images/group_15_4_m.png"
-                  data-aos="fade-up"
-                  data-aos-easing="linear"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                  data-aos-delay="1000"
-                />
-              </div>
-              <img
-                src="assets/images/img_17.png"
-                alt=""
-                class="img img_17"
-                data-aos="zoom-out"
-                data-aos-duration="1000"
-                data-aos-offset="250"
-              />
-              <div
-                class="group_text group_text_12"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                <p class="text_content t-content">
-                  Cách bãi Kem không xa là bãi Đất đỏ, vốn chỉ toàn cây bụi,
-                  ghềnh đá. Từ khi Thị trấn Hoàng Hôn (Sunset Town) được xây
-                  dựng, từ bãi lầy, cây gai đã mọc lên những dãy shophouse hiện
-                  đại mang sắc màu của Sorento hay Amalfi (Italy). Cầu Hôn – một
-                  công trình dự kiến được hoàn thành vào năm 2023 ngay giữa
-                  trung tâm thị trấn Hoàng Hôn, cũng được kỳ vọng sẽ trở thành
-                  biểu tượng du lịch, là điểm đến được du khách yêu thích.
-                </p>
-              </div>
-              <div
-                class="text-image-group"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                <img
-                  src="assets/images/img_18.png"
-                  alt=""
-                  class="img_450 img right-side"
-                />
 
+            <div class="section_2_1">
+              <div class="group_text group_text_4" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
                 <p class="text_content t-content">
-                  Cũng tại Thị trấn Hoàng Hôn, ga Hòn Thơm với tuyến cáp treo 3
-                  dây vượt biển dài nhất thế giới được xây dựng. Khu vực của
-                  làng chài, nơi người dân địa phương trồng dừa, trồng điều,
-                  chặt củi… nay đã trở thành công viên nước Aquatopia và làng
-                  Exotica với những trò chơi cảm giác mạnh. Những bãi biển cát
-                  trắng, nắng vàng nay càng thêm sôi động với những điệu nhảy
-                  thổ dân, với tiếng nhạc Mỹ Latinh sôi động.
+                  Năm 2010, Quảng Ninh thu ngân sách đạt 22.589 tỷ đồng, đứng
+                  thứ 5 cả nước. GDP bình quân đầu người đạt gần 1.600 USD,
+                  cao hơn mức 1.200 USD trung bình cả nước. Nơi đây có nhiều
+                  tài nguyên phong phú như than, đá vôi… cùng vịnh Hạ Long -
+                  di sản thiên nhiên thế giới. Tuy nhiên, thời điểm đó, hệ
+                  thống cơ sở hạ tầng, đường sá, cầu, sân bay, cảng biển vẫn
+                  chưa hoàn thiện.
                 </p>
-
                 <p class="text_content t-content">
-                  Từ một hòn đảo chủ yếu làm nông nghiệp vào năm 2004, Phú Quốc
-                  đã từng bước gây ấn tượng với tốc độ tăng trưởng lên tới 38%
-                  mỗi năm, trong đó, 70% nguồn thu đến từ du lịch. Thu nhập bình
-                  quân đầu người tăng từ 8,3 triệu đồng năm 2004 đến 113 triệu
-                  đồng (năm 2019); thu ngân sách tăng hơn 100 lần, từ hơn 40 tỷ
-                  đến mức 4.836 tỷ đồng. Theo thống kê năm 2021, tổng vốn đầu tư
-                  vào đảo ngọc đã đạt mức 16 tỷ USD, trong đó riêng Sun Group
-                  đóng góp hàng tỷ USD với khoảng 50 dự án.
+                  Năm 2011, Quảng Ninh chủ trương chuyển từ “nâu sang xanh",
+                  giảm dần khai khoáng, hướng phát triển sang lĩnh vực du
+                  lịch, dịch vụ; đẩy mạnh thu hút đầu tư công nghiệp xanh -
+                  sạch - chế biến, chế tạo. Để hiện thực hóa chiến lược này,
+                  Quảng Ninh đã đi trước đón đầu, kêu gọi đầu tư phát triển hạ
+                  tầng. Trong đó, phải kể đến sự tham gia của Tập đoàn Sun
+                  Group với hệ thống Cảng hàng không quốc tế Vân Đồn, Cảng tàu
+                  khách Quốc tế Hạ Long, cao tốc Vân Đồn - Móng Cái...
                 </p>
               </div>
-              <img
-                src="assets/images/img_19.png"
-                alt=""
-                class="img img_18"
-                data-aos="zoom-out"
-                data-aos-duration="1000"
-                data-aos-offset="250"
-              />
+              <img src="assets/images/img_5.png" alt="" class="img img_1000" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-offset="250" />
+              <img src="assets/images/img_6.png" alt="" class="img img_6" data-aos="zoom-out" data-aos-duration="1000"
+                data-aos-offset="250" />
+              <div class="group_text group_text_5" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Từ một khu vực đầm lầy, cảng hàng không tư nhân đầu tiên của
+                  Việt Nam đã thành hình với đường băng dài 3,6km, rộng 45m và
+                  hoạt động công suất phục vụ 2,5 triệu khách, 10.000 tấn hàng
+                  hóa mỗi năm. Cảng tàu khách quốc tế Hạ Long với bến cảng dài
+                  130 m, rộng 31 m, có khả năng tiếp nhận đồng thời 2 tàu cỡ
+                  lớn, sức chở lên đến 8.400 khách và thuỷ thủ đoàn. Nhà ga
+                  cảng hành khách rộng đến 13.500m2 do kiến trúc sư Bill
+                  Bensley thiết kế, với sự pha trộn tinh tế giữa nét văn hoá,
+                  kiến trúc Việt Nam và châu Âu.
+                </p>
+                <p class="text_content t-content">
+                  Đến nay, Quảng Ninh đã có tuyến cao tốc xuyên tỉnh dài 176
+                  km, tổng vốn đầu tư gần 37.000 tỷ đồng. Trong đó hai đoạn Hạ
+                  Long - Vân Đồn và Vân Đồn - Móng Cái do Sun Group triển
+                  khai. Nhờ tuyến cao tốc này, thời gian đi từ Hà Nội đến Hạ
+                  Long chỉ còn 1,5 giờ và Móng Cái chỉ còn 3 giờ, thu hút du
+                  khách ghé Quảng Ninh tham quan, vui chơi và mở ra cơ hội
+                  thông thương, kết nối giữa các vùng đất.
+                </p>
+              </div>
+              <img src="assets/images/img_7.png" alt="" class="img img_7" data-aos="zoom-out" data-aos-duration="1000"
+                data-aos-offset="250" />
             </div>
-            <div class="section_5 none ss">
-              <div class="section_5_cover pc">
-                <div class="group_image group_image_14">
-                  <img
-                    src="assets/images/group_16_1.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_2.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_3.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_4.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                </div>
+            <div class="section_2_2"></div>
+            <div class="section_2_3">
+              <div class="group_text group_text_6" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Trong lĩnh vực du lịch, nghỉ dưỡng, hàng loạt dự án vui
+                  chơi, giải trí lớn được Sun Group đầu tư xây dựng đã đưa
+                  Quảng Ninh trở thành điểm đến sôi động. Tiêu biểu là Sun
+                  World Ha Long với các trò chơi đa dạng tại công viên chủ đề
+                  Dragon Park hay công viên nước Typhoon Water. Cũng tại đây,
+                  cáp treo Nữ hoàng đạt hai kỷ lục Guinness thế giới giúp du
+                  khách ngắm nhìn toàn cảnh Vịnh Hạ Long và thành phố từ trên
+                  cao, trải nghiệm đỉnh Ba Đèo với không gian đậm chất Nhật
+                  Bản cùng nhiều trò chơi hấp dẫn như trải nghiệm vòng xoay
+                  mặt trời khổng lồ, thăm bảo tàng tượng sáp, cầu Koi, hay
+                  không gian thiền định linh thiêng của Bảo Hải Linh Thông Tự…
+                </p>
+                <p class="text_content t-content">
+                  Trong khi đó, khu nghỉ dưỡng Premier Village Ha Long Bay
+                  mang đến cho du khách những giờ phút nghỉ ngơi thư thái ngay
+                  bên bờ vịnh di sản. Còn Yoko Onsen Quang Hanh resort tại
+                  Quang Hanh (Cẩm Phả) lại là không gian trải nghiệm văn hóa
+                  onsen chuẩn Nhật, với những loại hình dịch vụ tắm khoáng
+                  tinh tế từ xứ sở Phù Tang.
+                </p>
               </div>
-              <div class="section_5_cover mobile">
-                <div class="group_image group_image_14">
-                  <img
-                    src="assets/images/group_16_1_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_2_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_3_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                  <img
-                    src="assets/images/group_16_4_m.png"
-                    data-aos="zoom-out"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="200"
-                  />
-                </div>
+              <div class="group_image group_image_1054 pc">
+                <img src="assets/images/group_11_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_11_2.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_11_3.png" data-aos="fade-up" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="200" />
               </div>
-              <div class="section_5_1">
-                <div
-                  class="group_text group_text_13"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <p class="text_content t-content">
-                    Nằm cách TP HCM chỉ khoảng 100 km, Tây Ninh sở hữu tài
-                    nguyên thiên nhiên phong phú, với đa dạng loại hình rừng,
-                    núi, đồng bằng, sông, hồ…. Trong đó, theo tác giả Nguyễn Văn
-                    Hiệu viết trong cuốn Nhận diện bản sắc văn hóa và truyền
-                    thống gia đình tỉnh Tây Ninh, quần thể di tích lịch sử văn
-                    hóa và danh thắng núi Bà Đen là một “trấn sơn”, một biểu
-                    tượng sinh thái - nhân văn của tỉnh.
-                  </p>
-                </div>
-                <div
-                  class="text-image-group"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
-                  <img
-                    src="assets/images/img_21.png"
-                    alt=""
-                    class="img_450 img right-side"
-                  />
 
-                  <p class="text_content t-content">
-                    Năm 2010, lượng khách du lịch đến Tây Ninh đạt khoảng 2,9
-                    triệu người, trong đó số khách lưu trú quốc tế chỉ hơn 3.000
-                    người. Qua khảo sát, hầu hết khách du lịch chỉ du lịch Tây
-                    Ninh trong ngày, tập trung vào mùa lễ hội Núi Bà Đen.
-                  </p>
+              <div class="group_image group_image_1054 mobile">
+                <img src="assets/images/group_11_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_11_2_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_11_3_m.png" data-aos="fade-up" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" data-aos-delay="200" />
+              </div>
 
+              <img src="assets/images/img_8.png" alt="" class="img img_8" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-offset="250" />
+              <div class="group_text group_text_7" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Bên cạnh đó, hàng loạt dự án nghỉ dưỡng và bất động sản như
+                  Sun Grand City Feria, Sun Plaza Grand World Hạ Long, quảng
+                  trường Sun Carnival Plaza… cũng góp phần mang đến màu sắc
+                  mới cho diện mạo đô thị, hứa hẹn đưa Quảng Ninh trở thành
+                  điểm đến đầu tư, “ngôi nhà thứ hai” của nhiều người Việt.
+                  Sau hơn 10 năm, Sun Group đã triển khai tại tỉnh này hàng
+                  chục dự án quy mô, góp phần vào sự tăng trưởng của tỉnh. Năm
+                  2021, địa phương thu ngân sách 51.000 tỷ, gấp gần 2,3 lần so
+                  với năm 2010.
+                </p>
+              </div>
+              <img src="assets/images/img_9.png" alt="" class="img img_1010" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-offset="250" />
+              <img src="assets/images/img_10.png" alt="" class="img img_10" data-aos="zoom-in" data-aos-duration="1000"
+                data-aos-offset="250" />
+            </div>
+          </div>
+          <div class="section_3 none ss">
+            <div class="section_3_cover">
+              <div class="group_image group_image_12 pc">
+                <img src="assets/images/group_12_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_12_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_12_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_12_4.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_12_5.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+              </div>
+              <div class="group_image group_image_12 mobile">
+                <img src="assets/images/group_12_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_12_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_12_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_12_4_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+                <img src="assets/images/group_12_5_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+              </div>
+              <div class="section_3_1">
+                <div class="group_text group_text_8" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
                   <p class="text_content t-content">
-                    Anh Lê Ngọc Tuyên, khách du lịch đến từ TP HCM cho biết
-                    trước đây khu vực Núi Bà chưa có nhiều dịch vụ, trải nghiệm,
-                    nên ngoài đi lễ Bà cầu an thì cũng không có gì để vui chơi.
-                    Vì vậy, vài năm rồi anh mới trở lại Tây Ninh.
+                    Năm 2007, lượng khách đến Đà Nẵng chỉ đạt một triệu người,
+                    doanh thu du lịch khoảng 700 tỷ đồng. Theo thống kê, mỗi
+                    khách chỉ chi tiêu khoảng 700.000 đồng và lưu trú tại đây
+                    hơn một ngày. Trong mắt nhiều du khách, thành phố biển
+                    ngày đó chỉ như một “trạm trung chuyển” trên hành trình
+                    đến cố đô Huế, Hội An, Cù Lao Chàm hay thánh địa Mỹ Sơn.
+                    Cho đến tận bây giờ, nhiều người Đà Nẵng vẫn không thể
+                    quên hình ảnh những dãy nhà tạm bợ, với những chiếc cọc
+                    lấn ra lòng sông tại khu vực ven sông Hàn, giữa trung tâm
+                    thành phố. Còn cách cầu Sông Hàn vài km khi đó vẫn là khu
+                    vực ngoại ô vắng vẻ, chỉ có cát, hàng cây phi lao và rau
+                    muống biển.
+                  </p>
+                  <p class="text_content t-content">
+                    Với định hướng mới, thành phố đã đẩy mạnh phát triển hạ
+                    tầng, đồng bộ với các sản phẩm du lịch. Hàng loạt dự án
+                    resort, khách sạn, khu vui chơi, biệt thự biển liên tục
+                    được triển khai, mang đến những sản phẩm lưu trú, giải trí
+                    cao cấp, góp phần tăng doanh thu cho ngành công nghiệp
+                    không khói.
+                  </p>
+                  <p class="text_content t-content">
+                    Đà Nẵng cũng là điểm đặt chân đầu tiên trong hành trình
+                    “làm đẹp những vùng đất” của Tập đoàn Sun Group. Một trong
+                    những dự án đầu tiên là tuyến cáp treo Bà Nà, thuộc khu du
+                    lịch Sun World Ba Na Hills. Kỹ sư trắc địa Trịnh Văn Hà
+                    nhớ lại thời điểm năm 2007, anh không hiểu trước mặt mình
+                    là gì, cũng không hiểu cáp treo làm như thế nào, chỉ biết
+                    qua những bản vẽ, vậy nên cứ vừa làm vừa tìm tòi.
                   </p>
                 </div>
-                <div
-                  class="group_text group_text_14"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-offset="300"
-                >
+                <img src="assets/images/img_11.png" alt="" class="img img_1092" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+                <img src="assets/images/img_12.png" alt="" class="img img_12" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+              </div>
+              <div class="section_3_2">
+                <div class="group_text group_text_9" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
                   <p class="text_content t-content">
-                    Từ năm 2020, khi hệ thống cáp treo đưa du khách lên đỉnh núi
-                    và tới quần thể các chùa Núi Bà do tỉnh Tây Ninh và Tập đoàn
-                    Sun Group khánh thành, mở ra những cơ hội phát triển du lịch
-                    của địa phương. Chỉ trong 9 ngày Tết năm 2020, nơi đây đã
-                    đón 800.000 lượt khách, trong đó có 500.000 lượt người đi
-                    cáp treo. Tính chung cả năm, dù bị ảnh hưởng từ dịch
-                    Covid-19 nhưng lượng khách đến núi Bà Đen vẫn đạt 2,1 triệu
-                    người, chiếm gần 45% số khách du lịch đến Tây Ninh. Năm
-                    2022, khi dịch bệnh Covid-19 dần được kiểm soát, chỉ trong 6
-                    tháng đầu năm, lượng khách du lịch đến núi Bà Đen đã đạt hơn
-                    2 triệu người. Sang năm 2023, chỉ trong tháng Giêng, núi Bà
-                    đã ước tính đón được gần 2 triệu lượt khách. Từ mùng 1 Tết
-                    đến Rằm tháng Giêng, có ngày núi Bà đón gần 190.000 lượt
-                    khách tham quan, tăng khoảng 25 lần so với cùng kỳ năm 2022.
+                    “Các bạn nước ngoài bảo mình chỉ biết chiến tranh thôi chứ
+                    không có kỹ thuật; làm cáp treo khó lắm, sang chảnh lắm,
+                    không có nền tảng kỹ thuật, không có nhân lực thì không
+                    được”, anh Hà chia sẻ.
+                  </p>
+                  <p class="text_content t-content">
+                    Anh kể, khi không được mở đường để tránh ảnh hưởng đến
+                    rừng, đội ngũ kỹ sư đã nghĩ ra cách vận chuyển vật liệu
+                    bằng cáp công vụ và mang vác thủ công. Sau hơn một năm,
+                    tuyến cáp treo một dây dài nhất thế giới (5.042,62m) ra
+                    đời.
+                  </p>
+                  <p class="text_content t-content">
+                    Đến Đà Nẵng ngày nay, nhiều du khách cũng ấn tượng với
+                    InterContinental Danang Sun Peninsula Resort - nơi 4 lần
+                    liên tiếp giành giải thưởng “Khu nghỉ dưỡng sang trọng
+                    hàng đầu thế giới”, là địa điểm diễn ra hội nghị APEC
+                    2017. Để triển khai xây dựng InterContinental Danang Sun
+                    Peninsula Resort, lãnh đạo Sun Group đã phải 3 lần bay
+                    sang Thái Lan để mời “ông hoàng resort" Bill Bensley thiết
+                    kế. Mất một năm để sắp xếp đi khảo sát, vị kiến trúc sư
+                    này đã tiết lộ lý do khiến ông nhận lời là vì ấn tượng
+                    trước vẻ đẹp của bán đảo Sơn Trà, đồng thời đích thân đi
+                    khắp Việt Nam tìm kiếm chất liệu dân gian để thổi hồn nét
+                    văn hóa Việt vào thiết kế. Ngay khi hoàn thành vào năm
+                    2012, InterContinental Danang đã trở thành điểm đến của
+                    các tỷ phú, các ngôi sao giải trí và được vinh danh tại
+                    nhiều giải thưởng danh giá.
                   </p>
                 </div>
-                <div class="group_image group_image_1250 pc">
-                  <img
-                    src="assets/images/group_17_1.png"
-                    data-aos="fade-down-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_2.png"
-                    data-aos="fade-down-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_3.png"
-                    data-aos="fade-up-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_4.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
+                <img src="assets/images/img_13.png" alt="" class="img img_13" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+                <img src="assets/images/img_14.png" alt="" class="img img_1036" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+                <img src="assets/images/img_15.png" alt="" class="img img_15" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+              </div>
+              <div class="section_3_3">
+                <div class="group_text group_text_10" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                  <p class="text_content t-content">
+                    Ngoài ra, các công trình nổi bật của Sun Group tại Đà Nẵng
+                    còn phải kể đến khách sạn Novotel Danang Premier Han River
+                    cao 37 tầng với tầm nhìn chiêm ngưỡng toàn cảnh thành phố
+                    về đêm. Hay khu nghỉ dưỡng Premier Village Danang Resort
+                    bên bãi biển Mỹ An, với hơn 100 căn biệt thự cùng những
+                    nhà hàng, quán bar, spa… mang phong cách thiết kế phóng
+                    khoáng, gần gũi thiên nhiên. Hàng loạt công trình khác như
+                    Công viên Châu Á, sân golf Bà Nà, khu đô thị Nam Hoà Xuân…
+                    được xây dựng sau đó đã góp phần thay đổi diện mạo đô thị
+                    TP Đà Nẵng. Năm 2019, Đà Nẵng đã đón 8,6 triệu lượt khách
+                    du lịch và đạt doanh thu gần 31.000 tỷ đồng, gấp hơn 8 lần
+                    về số khách và hơn 44 lần doanh thu so với năm 2007. Sau 2
+                    năm bị ảnh hưởng bởi dịch Covid-19, năm 2022, ngành du
+                    lịch Đà Nẵng đã đón 3,69 triệu lượt khách, cả trong nước
+                    và quốc tế.
+                  </p>
                 </div>
-                <div class="group_image group_image_1250 mobile">
-                  <img
-                    src="assets/images/group_17_1_m.png"
-                    data-aos="fade-down-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_2_m.png"
-                    data-aos="fade-down-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_3_m.png"
-                    data-aos="fade-up-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
-                  <img
-                    src="assets/images/group_17_4_m.png"
-                    data-aos="fade-up-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  />
+                <div class="group_image group_image_1024 pc">
+                  <img src="assets/images/group_13_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" />
+                  <img src="assets/images/group_13_2.png" data-aos="fade-right" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                  <img src="assets/images/group_13_3.png" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
                 </div>
-                <div class="div_radi">
-                  <img
-                    src="assets/images/img_22.png"
-                    alt=""
-                    class="img img_22"
-                  />
+                <div class="group_image group_image_1024 mobile">
+                  <img src="assets/images/group_13_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" />
+                  <img src="assets/images/group_13_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                  <img src="assets/images/group_13_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                    data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
                 </div>
-                <div class="section_5_1_1">
-                  <div
-                    class="group_text group_text_15"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-offset="300"
-                  >
-                    <p class="text_content t-content">
-                      Bên cạnh cáp treo, trên khu vực đỉnh Núi Bà hiện nay, du
-                      khách có thể tham quan và trải nghiệm nhiều công trình lớn
-                      như tượng Phật Bà bằng đồng cao 72 m, khu triển lãm Phật
-                      giáo nằm ngay dưới khối đế với nhiều bức tượng Phật độc
-                      đáo mô phỏng những tác phẩm nổi tiếng từ nhiều quốc gia
-                      trên thế giới…
-                    </p>
-                    <p class="text_content t-content">
-                      Đại diện ban quản lý khu du lịch cho biết, cảnh quan nơi
-                      đây luôn được chăm chút, làm mới liên tục nhằm mang tới
-                      một chốn dừng chân vãn cảnh, cầu an ý nghĩa cho người dân
-                      Nam Bộ. Trong tương lai, Sun Group dự kiến sẽ sớm triển
-                      khai thêm những hạng mục mới, gia tăng thêm nhiều trải
-                      nghiệm độc đáo cho du khách đến Tây Ninh.
-                    </p>
-                  </div>
-                  <img
-                    src="assets/images/img_23.png"
-                    alt=""
-                    class="img img_23"
-                  />
+                <img src="assets/images/img_16.png" alt="" class="img img_16" data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-offset="250" />
+              </div>
+            </div>
+          </div>
+          <div class="section_4 none ss">
+            <div class="section_4_cover pc">
+              <div class="group_image group_image_14">
+                <img src="assets/images/group_14_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_14_2.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_14_3.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+              </div>
+            </div>
+            <div class="section_4_cover mobile">
+              <div class="group_image group_image_14">
+                <img src="assets/images/group_14_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_14_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="500" />
+                <img src="assets/images/group_14_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" data-aos-delay="1000" />
+              </div>
+            </div>
+            <div class="group_text group_text_11" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+              <p class="text_content t-content">
+                Trước năm 2000, lượng khách đến với Phú Quốc chỉ khoảng vài
+                chục nghìn người, chủ yếu đến thăm di tích lịch sử nhà tù Phú
+                Quốc. Trong cảm nhận của nhiều du khách thời điểm này, các bãi
+                tắm còn rất hoang sơ và chủ yếu phục vụ người dân địa phương,
+                nguồn thu ngân sách một năm chỉ khoảng vài chục tỷ đồng. Cùng
+                với sự xuất hiện của tàu cao tốc, cảng Bãi Vòng, sân bay quốc
+                tế, Phú Quốc bắt đầu có sự đầu tư mạnh mẽ vào hạ tầng, giao
+                thông. Đường cáp điện ngầm vượt biển, hồ chứa nước hàng nghìn
+                m3 được triển khai, hệ thống giao thông dần hoàn thiện. Tập
+                đoàn Sun Group cũng chọn nơi đây là điểm đến, xây dựng hệ sinh
+                thái với 3 mảng chính là: Du lịch nghỉ dưỡng, vui chơi - giải
+                trí và bất động sản cao cấp.
+              </p>
+              <p class="text_content t-content">
+                Tại Nam đảo ngọc, Sun Group khởi công dự án JW Marriott Phu
+                Quoc Emerald Bay Resort. Hàng trăm công nhân đã dọn rác, đãi
+                cát tại Bãi Kem (An Thới). Nhiều người vẫn nhớ, trong điều
+                kiện khó khăn khi ấy, họ phải dùng máy phát điện thay cho điện
+                lưới, dùng xe bồn chở nước thay cho giếng khoan và vận chuyển
+                nguyên vật liệu bằng tàu biển. Kiến trúc sư Bill Bensley đã
+                tạo nên một không gian sang trọng, độc đáo, lấy cảm hứng từ
+                câu chuyện giả tưởng về trường đại học Lamarck, mỗi khu nhà
+                tương ứng với một khoa. Bên cạnh nghỉ dưỡng, du khách còn được
+                biết thêm những điều thú vị về nơi mình đang ở, thông qua
+                những tranh ảnh, câu trích dẫn được bố trí khắp mọi nơi: trên
+                tường, trong thang máy, trên bàn ăn, cánh cửa, trần nhà…
+              </p>
+            </div>
+            <div class="group_image group_image_1366 pc">
+              <img src="assets/images/group_15_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" />
+              <img src="assets/images/group_15_2.png" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              <img src="assets/images/group_15_3.png" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              <img src="assets/images/group_15_4.png" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+            </div>
+            <div class="group_image group_image_1366 mobile">
+              <img src="assets/images/group_15_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" />
+              <img src="assets/images/group_15_2_m.png" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              <img src="assets/images/group_15_3_m.png" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+              <img src="assets/images/group_15_4_m.png" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="1000" data-aos-offset="300" data-aos-delay="1000" />
+            </div>
+            <img src="assets/images/img_17.png" alt="" class="img img_17" data-aos="zoom-out" data-aos-duration="1000"
+              data-aos-offset="250" />
+            <div class="group_text group_text_12" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+              <p class="text_content t-content">
+                Cách bãi Kem không xa là bãi Đất đỏ, vốn chỉ toàn cây bụi,
+                ghềnh đá. Từ khi Thị trấn Hoàng Hôn (Sunset Town) được xây
+                dựng, từ bãi lầy, cây gai đã mọc lên những dãy shophouse hiện
+                đại mang sắc màu của Sorento hay Amalfi (Italy). Cầu Hôn – một
+                công trình dự kiến được hoàn thành vào năm 2023 ngay giữa
+                trung tâm thị trấn Hoàng Hôn, cũng được kỳ vọng sẽ trở thành
+                biểu tượng du lịch, là điểm đến được du khách yêu thích.
+              </p>
+            </div>
+            <div class="text-image-group" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+              <img src="assets/images/img_18.png" alt="" class="img_450 img right-side" />
+
+              <p class="text_content t-content">
+                Cũng tại Thị trấn Hoàng Hôn, ga Hòn Thơm với tuyến cáp treo 3
+                dây vượt biển dài nhất thế giới được xây dựng. Khu vực của
+                làng chài, nơi người dân địa phương trồng dừa, trồng điều,
+                chặt củi… nay đã trở thành công viên nước Aquatopia và làng
+                Exotica với những trò chơi cảm giác mạnh. Những bãi biển cát
+                trắng, nắng vàng nay càng thêm sôi động với những điệu nhảy
+                thổ dân, với tiếng nhạc Mỹ Latinh sôi động.
+              </p>
+
+              <p class="text_content t-content">
+                Từ một hòn đảo chủ yếu làm nông nghiệp vào năm 2004, Phú Quốc
+                đã từng bước gây ấn tượng với tốc độ tăng trưởng lên tới 38%
+                mỗi năm, trong đó, 70% nguồn thu đến từ du lịch. Thu nhập bình
+                quân đầu người tăng từ 8,3 triệu đồng năm 2004 đến 113 triệu
+                đồng (năm 2019); thu ngân sách tăng hơn 100 lần, từ hơn 40 tỷ
+                đến mức 4.836 tỷ đồng. Theo thống kê năm 2021, tổng vốn đầu tư
+                vào đảo ngọc đã đạt mức 16 tỷ USD, trong đó riêng Sun Group
+                đóng góp hàng tỷ USD với khoảng 50 dự án.
+              </p>
+            </div>
+            <img src="assets/images/img_19.png" alt="" class="img img_18" data-aos="zoom-out" data-aos-duration="1000"
+              data-aos-offset="250" />
+          </div>
+          <div class="section_5 none ss">
+            <div class="section_5_cover pc">
+              <div class="group_image group_image_14">
+                <img src="assets/images/group_16_1.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_2.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_3.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_4.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+              </div>
+            </div>
+            <div class="section_5_cover mobile">
+              <div class="group_image group_image_14">
+                <img src="assets/images/group_16_1_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_2_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_3_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+                <img src="assets/images/group_16_4_m.png" data-aos="zoom-out" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="200" />
+              </div>
+            </div>
+            <div class="section_5_1">
+              <div class="group_text group_text_13" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Nằm cách TP HCM chỉ khoảng 100 km, Tây Ninh sở hữu tài
+                  nguyên thiên nhiên phong phú, với đa dạng loại hình rừng,
+                  núi, đồng bằng, sông, hồ…. Trong đó, theo tác giả Nguyễn Văn
+                  Hiệu viết trong cuốn Nhận diện bản sắc văn hóa và truyền
+                  thống gia đình tỉnh Tây Ninh, quần thể di tích lịch sử văn
+                  hóa và danh thắng núi Bà Đen là một “trấn sơn”, một biểu
+                  tượng sinh thái - nhân văn của tỉnh.
+                </p>
+              </div>
+              <div class="text-image-group" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <img src="assets/images/img_21.png" alt="" class="img_450 img right-side" />
+
+                <p class="text_content t-content">
+                  Năm 2010, lượng khách du lịch đến Tây Ninh đạt khoảng 2,9
+                  triệu người, trong đó số khách lưu trú quốc tế chỉ hơn 3.000
+                  người. Qua khảo sát, hầu hết khách du lịch chỉ du lịch Tây
+                  Ninh trong ngày, tập trung vào mùa lễ hội Núi Bà Đen.
+                </p>
+
+                <p class="text_content t-content">
+                  Anh Lê Ngọc Tuyên, khách du lịch đến từ TP HCM cho biết
+                  trước đây khu vực Núi Bà chưa có nhiều dịch vụ, trải nghiệm,
+                  nên ngoài đi lễ Bà cầu an thì cũng không có gì để vui chơi.
+                  Vì vậy, vài năm rồi anh mới trở lại Tây Ninh.
+                </p>
+              </div>
+              <div class="group_text group_text_14" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                <p class="text_content t-content">
+                  Từ năm 2020, khi hệ thống cáp treo đưa du khách lên đỉnh núi
+                  và tới quần thể các chùa Núi Bà do tỉnh Tây Ninh và Tập đoàn
+                  Sun Group khánh thành, mở ra những cơ hội phát triển du lịch
+                  của địa phương. Chỉ trong 9 ngày Tết năm 2020, nơi đây đã
+                  đón 800.000 lượt khách, trong đó có 500.000 lượt người đi
+                  cáp treo. Tính chung cả năm, dù bị ảnh hưởng từ dịch
+                  Covid-19 nhưng lượng khách đến núi Bà Đen vẫn đạt 2,1 triệu
+                  người, chiếm gần 45% số khách du lịch đến Tây Ninh. Năm
+                  2022, khi dịch bệnh Covid-19 dần được kiểm soát, chỉ trong 6
+                  tháng đầu năm, lượng khách du lịch đến núi Bà Đen đã đạt hơn
+                  2 triệu người. Sang năm 2023, chỉ trong tháng Giêng, núi Bà
+                  đã ước tính đón được gần 2 triệu lượt khách. Từ mùng 1 Tết
+                  đến Rằm tháng Giêng, có ngày núi Bà đón gần 190.000 lượt
+                  khách tham quan, tăng khoảng 25 lần so với cùng kỳ năm 2022.
+                </p>
+              </div>
+              <div class="group_image group_image_1250 pc">
+                <img src="assets/images/group_17_1.png" data-aos="fade-down-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_2.png" data-aos="fade-down-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_3.png" data-aos="fade-up-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_4.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+              </div>
+              <div class="group_image group_image_1250 mobile">
+                <img src="assets/images/group_17_1_m.png" data-aos="fade-down-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_2_m.png" data-aos="fade-down-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_3_m.png" data-aos="fade-up-right" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+                <img src="assets/images/group_17_4_m.png" data-aos="fade-up-left" data-aos-easing="linear"
+                  data-aos-duration="1000" data-aos-offset="300" />
+              </div>
+              <div class="div_radi">
+                <img src="assets/images/img_22.png" alt="" class="img img_22" />
+              </div>
+              <div class="section_5_1_1">
+                <div class="group_text group_text_15" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
+                  <p class="text_content t-content">
+                    Bên cạnh cáp treo, trên khu vực đỉnh Núi Bà hiện nay, du
+                    khách có thể tham quan và trải nghiệm nhiều công trình lớn
+                    như tượng Phật Bà bằng đồng cao 72 m, khu triển lãm Phật
+                    giáo nằm ngay dưới khối đế với nhiều bức tượng Phật độc
+                    đáo mô phỏng những tác phẩm nổi tiếng từ nhiều quốc gia
+                    trên thế giới…
+                  </p>
+                  <p class="text_content t-content">
+                    Đại diện ban quản lý khu du lịch cho biết, cảnh quan nơi
+                    đây luôn được chăm chút, làm mới liên tục nhằm mang tới
+                    một chốn dừng chân vãn cảnh, cầu an ý nghĩa cho người dân
+                    Nam Bộ. Trong tương lai, Sun Group dự kiến sẽ sớm triển
+                    khai thêm những hạng mục mới, gia tăng thêm nhiều trải
+                    nghiệm độc đáo cho du khách đến Tây Ninh.
+                  </p>
                 </div>
+                <img src="assets/images/img_23.png" alt="" class="img img_23" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- End Main Content -->
-
-      <!-- COMMENTS BOX -->
-      <!-- END COMMENTS BOX -->
     </div>
-    <!-- End Document Warpper -->
+    <!-- End Main Content -->
 
-    <!-- Core Script -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/js/jquery.migrate.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/js/header-sticky.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/js/jquery.nicescroll.min.js"
-    ></script>
-    <script type="text/javascript" src="assets/js/lib.min.js"></script>
-    <!-- End Core Script -->
+    <!-- COMMENTS BOX -->
+    <!-- END COMMENTS BOX -->
+  </div>
+  <!-- End Document Warpper -->
 
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
-    <script type="text/javascript" src="assets/js/swiper.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.min.js"></script>
-    <script>
-      AOS.init({ offset: 120, duration: 3000 });
-      document
-        .querySelectorAll("img")
-        .forEach((img) => img.addEventListener("load", () => AOS.refresh()));
-    </script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+  <!-- Core Script -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.migrate.min.js"></script>
+  <script type="text/javascript" src="assets/js/header-sticky.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="assets/js/lib.min.js"></script>
+  <!-- End Core Script -->
+
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <script type="text/javascript" src="assets/js/imagesStatus.min.js"></script>
+  <script type="text/javascript" src="assets/js/swiper.min.js"></script>
+  <!-- // -->
+  <script src="assets/js/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+  <script src="assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
+
+  <!-- // -->
+  <script type="text/javascript" src="assets/js/main.min.js"></script>
+
+  <script>
+    AOS.init({ offset: 120, duration: 3000 });
+    document
+      .querySelectorAll("img")
+      .forEach((img) => img.addEventListener("load", () => AOS.refresh()));
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script type="text/javascript">
+    $(function () {
+      var $mybook = $("#mybook");
+      var $bttn_next = $("#next_page_button");
+      var $bttn_prev = $("#prev_page_button");
+      var $loading = $("#loading");
+      var $mybook_images = $mybook.find("img");
+      var cnt_images = $mybook_images.length;
+      var loaded = 0;
+
+      $mybook_images.each(function () {
+        var $img = $(this);
+        console.log($img);
+        var source = $img.attr("src");
+        $("<img/>")
+          .load(function () {
+            ++loaded;
+            if (loaded == cnt_images) {
+              $loading.hide();
+              $bttn_next.show();
+              $bttn_prev.show();
+              $mybook.show().booklet({
+                name: null, //
+                width: 1000, //
+                height: 670, //
+                speed: 600, //
+                direction: "LTR", //
+                //
+                next: $bttn_next, //
+                prev: $bttn_prev, //
+              });
+              Cufon.refresh();
+            }
+          })
+          .attr("src", source);
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
