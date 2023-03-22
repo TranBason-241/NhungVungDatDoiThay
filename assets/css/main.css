@@ -590,6 +590,17 @@
 
   .book_area {
     background-position: bottom 53% center; } }
+@media (max-width: 1200px) {
+  #next_page_button,
+  #prev_page_button {
+    opacity: 1 !important;
+    z-index: 100; }
+
+  a#prev_page_button {
+    left: 21% !important; }
+
+  a#next_page_button {
+    right: 21% !important; } }
 @media (max-width: 1024px) {
   .img_784 {
     max-width: 60%; }
@@ -615,6 +626,12 @@
   .img_1036 {
     max-width: 90%; } }
 @media (max-width: 820px) {
+  a#prev_page_button {
+    left: 14% !important; }
+
+  a#next_page_button {
+    right: 14% !important; }
+
   .section_1_1 {
     background-image: url(../images/bg_2.png);
     background-position: bottom right; }
@@ -654,29 +671,26 @@
     .control_area p {
       font-size: 12px; } }
 @media (max-width: 768px) {
+  a#prev_page_button {
+    left: 11% !important; }
+
+  a#next_page_button {
+    right: 11% !important; }
+
   .text-image-group {
     padding-left: 34px; } }
 @media (min-width: 577px) {
   .mobile {
     display: none; }
 
-  #next_page_button,
-  #prev_page_button {
-    opacity: 1 !important; }
-
   .menu_container_mobile {
     display: none; } }
 @media (max-width: 576px) {
-  #next_page_button,
-  #prev_page_button {
-    opacity: 1 !important;
-    z-index: 100; }
+  a#prev_page_button {
+    left: 14% !important; }
 
-  #next_page_button {
-    right: 0 !important; }
-
-  #prev_page_button {
-    left: 0 !important; }
+  a#next_page_button {
+    right: 14% !important; }
 
   .pc {
     display: none; }
@@ -766,6 +780,12 @@
   .book_area {
     background-position: top 32% right 58%; } }
 @media (max-width: 414px) {
+  a#prev_page_button {
+    left: 2px !important; }
+
+  a#next_page_button {
+    right: 2px !important; }
+
   .group_text_11 {
     margin-top: 5%; }
 
@@ -828,6 +848,12 @@
   .group_image_928 {
     margin-top: 0; } }
 @media (max-width: 390px) {
+  a#prev_page_button {
+    left: 5px !important; }
+
+  a#next_page_button {
+    right: 5px !important; }
+
   #mybook {
     position: absolute;
     transform: scale(0.38) translate(-50%, 0);
