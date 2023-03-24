@@ -434,8 +434,8 @@
     justify-content: space-around;
     padding-right: 0%;
     .img_icon {
-        width: 45px;
-        height: 25px;
+        width: 35px;
+        height: 28px;
         margin: 0 5px;
         flex: 0 1 auto;
         margin-left: 30px;
@@ -446,9 +446,9 @@
     .img_icon:hover {
         color: white;
     }
-    .arrow-left {
+    .arrow-back {
         position: relative;
-        animation: arrow 1s alternate infinite;
+        animation: arrow 0.8s alternate ease infinite;
     }
     @keyframes arrow {
         0% {
@@ -686,6 +686,10 @@ li:hover {
     #mybook {
         transform: scale(0.85);
     }
+    .book {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
 }
 @media (max-width: 1600px) {
     // book
@@ -722,6 +726,10 @@ li:hover {
     //section_5
     .section_5_1 {
         margin-top: -12%;
+    }
+    .book_wrapper {
+        margin-top: -11.5% !important;
+        margin-bottom: 2% !important;
     }
 }
 
@@ -1615,29 +1623,28 @@ body {
     height: 100%;
     background-image: url(../images/bg_active.png);
     z-index: 10;
-    opacity: 1;
+    opacity: 0.5;
     visibility: hidden;
     position: absolute;
-    i {
+    img {
         position: absolute;
-        right: 10%;
-        top: 15%;
-        font-size: 60px;
-        opacity: 0.4;
-        animation: pointer 0.8s ease-in-out alternate infinite;
+        right: 14%;
+        top: 21%;
+        width: 4% !important;
+        opacity: 0.5;
+        animation: pointer 1s ease-in-out alternate infinite;
+        -webkit-box-shadow: none !important;
     }
 
     @keyframes pointer {
         0% {
-            opacity: 0.1;
-            // transform: scale(0.5, 0.5);
-            font-size: 60px;
+            opacity: 0.5;
+            transform: scale(0.8);
         }
 
         100% {
-            opacity: 0.5;
-            // transform: scale(0.5);
-            font-size: 60px;
+            opacity: 1;
+            transform: scale(1);
         }
     }
 }
@@ -1739,14 +1746,14 @@ body {
     margin: 0px;
     width: 100%;
     padding: 0px;
-    border: 1px solid #ddd;
+    // border: 1px solid #ddd;
     -moz-box-shadow: 1px 1px 1px #fff;
     -webkit-box-shadow: 1px 1px 1px #fff;
     box-shadow: 1px 1px 1px #fff;
 }
 
 .booklet .b-wrap-right img {
-    border: 1px solid #e6e3c2;
+    // border: 1px solid #e6e3c2;
 }
 
 a#next_page_button,
@@ -1787,4 +1794,11 @@ a#prev_page_button:hover {
     top: 0;
     // background: #000;
     z-index: 150;
+}
+
+.b-wrap-left img {
+    border-right: 0.25px solid #cdcdcd !important;
+}
+.b-wrap-right img {
+    border-left: 0.25px solid #cdcdcd !important;
 }

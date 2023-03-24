@@ -433,8 +433,8 @@
   justify-content: space-around;
   padding-right: 0%; }
   .menu .img_icon {
-    width: 45px;
-    height: 25px;
+    width: 35px;
+    height: 28px;
     margin: 0 5px;
     flex: 0 1 auto;
     margin-left: 30px;
@@ -443,9 +443,9 @@
     gap: 5px; }
   .menu .img_icon:hover {
     color: white; }
-  .menu .arrow-left {
+  .menu .arrow-back {
     position: relative;
-    animation: arrow 1s alternate infinite; }
+    animation: arrow 0.8s alternate ease infinite; }
 @keyframes arrow {
   0% {
     left: 0%; }
@@ -629,7 +629,11 @@ li:hover {
     margin-bottom: 3%; } }
 @media (max-width: 1920px) {
   #mybook {
-    transform: scale(0.85); } }
+    transform: scale(0.85); }
+
+  .book {
+    margin-top: 2%;
+    margin-bottom: 0%; } }
 @media (max-width: 1600px) {
   #mybook {
     transform: scale(0.7); }
@@ -656,7 +660,11 @@ li:hover {
     padding-top: 17%; }
 
   .section_5_1 {
-    margin-top: -12%; } }
+    margin-top: -12%; }
+
+  .book_wrapper {
+    margin-top: -11.5% !important;
+    margin-bottom: 2% !important; } }
 @media (max-width: 1366px) {
   .group_image_1366 {
     width: 95%; }
@@ -1368,23 +1376,24 @@ body {
   height: 100%;
   background-image: url(../images/bg_active.png);
   z-index: 10;
-  opacity: 1;
+  opacity: 0.5;
   visibility: hidden;
   position: absolute; }
-  .brightness i {
+  .brightness img {
     position: absolute;
-    right: 10%;
-    top: 15%;
-    font-size: 60px;
-    opacity: 0.4;
-    animation: pointer 0.8s ease-in-out alternate infinite; }
+    right: 14%;
+    top: 21%;
+    width: 4% !important;
+    opacity: 0.5;
+    animation: pointer 1s ease-in-out alternate infinite;
+    -webkit-box-shadow: none !important; }
 @keyframes pointer {
   0% {
-    opacity: 0.1;
-    font-size: 60px; }
-  100% {
     opacity: 0.5;
-    font-size: 60px; } }
+    transform: scale(0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
 #mybook:hover > .brightness {
   visibility: visible; }
 
@@ -1471,13 +1480,9 @@ body {
   margin: 0px;
   width: 100%;
   padding: 0px;
-  border: 1px solid #ddd;
   -moz-box-shadow: 1px 1px 1px #fff;
   -webkit-box-shadow: 1px 1px 1px #fff;
   box-shadow: 1px 1px 1px #fff; }
-
-.booklet .b-wrap-right img {
-  border: 1px solid #e6e3c2; }
 
 a#next_page_button,
 a#prev_page_button {
@@ -1508,5 +1513,11 @@ a#prev_page_button:hover {
   left: 0;
   top: 0;
   z-index: 150; }
+
+.b-wrap-left img {
+  border-right: 0.25px solid #cdcdcd !important; }
+
+.b-wrap-right img {
+  border-left: 0.25px solid #cdcdcd !important; }
 
 /*# sourceMappingURL=main.css.map */
