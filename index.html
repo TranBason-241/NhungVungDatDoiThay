@@ -284,7 +284,7 @@
                 />
               </div>
               <ul class="list_menu" id="list_menu">
-                <li value="0" class="menu_item">Sapa</li>
+                <li value="0" class="menu_item">Sa Pa</li>
                 <li value="1" class="menu_item">Quảng Ninh</li>
                 <li value="2" class="menu_item">Đà Nẵng</li>
                 <li value="3" class="menu_item">Tây Ninh</li>
@@ -729,14 +729,16 @@
                   data-aos-offset="300"
                 >
                   <p class="text_content t-content">
-                    nhà văn Nguyễn Thành Long trong truyện ngắn “Lặng lẽ Sa Pa”.
-                    Khách đến đây chủ yếu là người nước ngoài để khám phá bản
-                    làng hoặc tìm về dấu tích khu nghỉ dưỡng của người Pháp hàng
-                    trăm năm trước. Sản phẩm du lịch phổ biến là: Ngủ nhà dân,
-                    ăn gà rừng, hái rau củ. Đỉnh Fansipan vẫn chỉ là nơi lui tới
-                    của dân phượt, những người trẻ sẵn sàng dành 2-3 ngày đêm đi
-                    đường rừng cheo leo để tới “nóc nhà Đông Dương". Năm 2013,
-                    lượng khách du lịch đến Sa Pa mới chỉ đạt 720.000 người.
+                    Những năm 2000, Sa Pa chỉ là một thị trấn nhỏ, lặng lẽ và
+                    vắng vẻ không khác với mô tả của nhà văn Nguyễn Thành Long
+                    trong truyện ngắn “Lặng lẽ Sa Pa”. Khách đến đây chủ yếu là
+                    người nước ngoài để khám phá bản làng hoặc tìm về dấu tích
+                    khu nghỉ dưỡng của người Pháp hàng trăm năm trước. Sản phẩm
+                    du lịch phổ biến là: Ngủ nhà dân, ăn gà rừng, hái rau củ.
+                    Đỉnh Fansipan vẫn chỉ là nơi lui tới của dân phượt, những
+                    người trẻ sẵn sàng dành 2-3 ngày đêm đi đường rừng cheo leo
+                    để tới “nóc nhà Đông Dương". Năm 2013, lượng khách du lịch
+                    đến Sa Pa mới chỉ đạt 720.000 người.
                   </p>
                   <p class="text_content t-content">
                     Năm 2016, cáp treo Fansipan - hạng mục đầu tiên của khu du
@@ -1139,7 +1141,7 @@
                     khách ngắm nhìn toàn cảnh Vịnh Hạ Long và thành phố từ trên
                     cao, trải nghiệm đỉnh Ba Đèo với không gian đậm chất Nhật
                     Bản cùng nhiều trò chơi hấp dẫn như trải nghiệm vòng xoay
-                    mặt trời khổng lồ, thăm bảo tàng tượng sáp, cầu Koi, hay
+                    Mặt trời khổng lồ, thăm bảo tàng tượng sáp, cầu Koi, hay
                     không gian thiền định linh thiêng của Bảo Hải Linh Thông Tự…
                   </p>
                   <p class="text_content t-content">
@@ -2036,42 +2038,6 @@
         .forEach((img) => img.addEventListener("load", () => AOS.refresh()));
     </script>
     <script></script>
-    <script type="text/javascript">
-      $(function () {
-        var $mybook = $("#mybook");
-        var $bttn_next = $("#next_page_button");
-        var $bttn_prev = $("#prev_page_button");
-        var $loading = $("#loading");
-        var $mybook_images = $mybook.find("img");
-        var cnt_images = $mybook_images.length;
-        var loaded = 0;
-
-        $mybook_images.each(function () {
-          var $img = $(this);
-          var source = $img.attr("src");
-          $("<img/>")
-            .load(function () {
-              ++loaded;
-              if (loaded == cnt_images) {
-                $loading.hide();
-                $bttn_next.show();
-                $bttn_prev.show();
-                $mybook.show().booklet({
-                  name: null, //
-                  width: 1000, //
-                  height: 670, //
-                  speed: 600, //
-                  direction: "LTR", //
-                  //
-                  next: $bttn_next, //
-                  prev: $bttn_prev, //
-                });
-                Cufon.refresh();
-              }
-            })
-            .attr("src", source);
-        });
-      });
-    </script>
+    <script type="text/javascript"></script>
   </body>
 </html>
